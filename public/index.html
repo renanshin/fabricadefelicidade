@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="description" content="Web site created using create-react-app" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+
+  <title>Fábrica de Felicidade | Felicidade Gerando resultados</title>
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.ico" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/vendor/odometer/odometer-theme-train-station.css" rel="stylesheet" />
+
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center justify-content-between">
+      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid" /></a>
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li>
+            <a class="nav-link scrollto active" href="#hero">Home</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto active" href="#rh">Solução RH</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="#diretoria">Solução Diretoria</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="#lojas">Solução Lojas</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="#marketing">Solução Marketing</a>
+          </li>
+          <li>
+            <a class="nav-link scrollto" href="#nossotime">Nosso Time</a>
+          </li>
+
+          <li><a class="nav-link scrollto" href="#contact">Depoimentos</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+      <!-- .navbar -->
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Promo Section ======= -->
+  <div id="containerpromo">
+    <p style="font-size: 10px;">Fechar [X]</p>
+    <div id="cupom">  
+      <img src="assets/img/Cartaopresentedourado.png" class="logo glow-gold" alt="" />
+    </div>
+  </div>
+  
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="home">
+    <div class="container">
+      <div class="hero-content">
+        <p class="logo-inicio">
+          <img src="assets/img/logo-sem-fundo.png" class="logo glow" alt="" />
+        </p>
+
+        <h1><span class="typed glow-pink" data-typed-items="Fábrica de Felicidade, Sua dose de felicidade"></span></h1>
+        <p class="glow-pink">Felicidade melhorando resultados</p>
+
+        <ul class="list-unstyled list-social glow-blue">
+          <li>
+            <a href="https://www.facebook.com/fabricadefelicidadeoficial"><i class="bi bi-facebook"></i></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/fabricadefelicidadeoficial/"><i class="bi bi-instagram"></i></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/company/fabricadefelicidadeoficial/"><i class="bi bi-linkedin"></i></a>
+          </li>
+          <li>
+            <a href="https://wa.me/message/VSHMGGHX2KXDL1"><i class="bi bi-whatsapp"></i></a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+  </div>
+  <div class="arrow arrow-first"></div>
+  <div class="arrow arrow-second"></div>  
+
+  <div id="menu" class="menu paddsection">
+    <h2>Soluções</h2>
+    <div id="solucoes" >
+      
+      <div class="menuitem glow-menu"><a href="#rh"><i class="bi bi-people"></i> RH</a></div>
+      <div class="menuitem glow-menu">
+        <a href="#diretoria"><i class="bi bi-briefcase"></i> Diretoria</a>
+      </div>
+      <div class="menuitem glow-menu"><a href="#lojas"><i class="bi bi-shop"></i> Lojas</a></div>
+      <div class="menuitem glow-menu"><a href="#marketing"><i class="bi bi-boxes"></i> Marketing</a></div>
+      <div class="menuitem glow-menu"><a href="#nossotime"> Nosso Time</a></div>
+      <div class="menuitem glow-menu"><a href="#contact">Depoimentos</a></div>
+    </div>
+
+    
+  </div>
+  <!-- End Menu -->
+
+  <main id="main">
+    <!-- ======= Rh Section ======= -->
+    <div id="rh" class="paddsection">
+      <div class="container">
+        <h2>Para RH</h2>
+        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="rhlottie">
+            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_5e7wgehs.json" background="transparent"
+              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
+          </div>
+          <div class="rhconjunto-caracteristicas row">
+            <div class="postit postit-esquerda postit-verde col">Melhorar clima organizacional</div>
+            <div class="postit postit-direita postit-rosa col">Integração de colaboradores</div>
+            <div class="postit postit-esquerda-leve postit-amarelo col">Estreitar o relacionamento colaborador / empresa</div>
+          </div>
+        </div>
+        <!-- ======= Fim 1º conjunto RH ======= -->
+        <div class="rhconjunto" data-aos="zoom-out-up" data-aos-duration="2000">
+          <div class="rhlottie">
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_6aYlBl.json" background="transparent"
+              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
+          </div>
+          <div class="rhconjunto-caracteristicas row">
+
+            <div class="postit postit-reto postit-rosa col">Festa da empresa</div>
+            <div class="postit postit-esquerda postit-azul col">Entretenimento para Funcionários</div>
+            <div class="postit postit-direita postit-verde col">Semana SIPAT</div>
+
+          </div>
+        </div>
+        <!-- ======= Fim 2º conjunto RH ======= -->
+        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="rhlottie">
+            <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_qr37agb3.json"
+              background="transparent" speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay>
+            </lottie-player>
+          </div>
+          <div class="rhconjunto-caracteristicas row">
+
+            <div class="postit postit-direita postit-amarelo col col">Datas comemorativas</div>
+            <div class="postit postit-reto postit-rosa col col">Comemoração de metas e conquistas</div>
+            <div class="postit postit-esquerda postit-azul col col">Metas atingidas</div>
+
+          </div>
+        </div>
+        <!-- ======= Fim 3º conjunto RH ======= -->
+        <div class="rhconjunto" data-aos="zoom-out-up" data-aos-duration="1000">
+          <div class="rhlottie">
+            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4jsnlwpe.json" background="transparent"
+              speed="1" style="width: 300px; height: 200px; margin:50px 0"  loop autoplay></lottie-player>
+          </div>
+          <div class="rhconjunto-caracteristicas row">
+            <div class="postit postit-esquerda postit-azul col col">Menos Doenças psicológicas</div>
+            <div class="postit postit-direita postit-amarelo col col">Menos Burnout</div>
+            <div class="postit postit-esquerda-leve postit-verde col col">Menos Turnover</div>
+          </div>
+        </div>
+        <!-- ======= Fim 4º conjunto RH ======= -->
+        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div class="rhlottie">
+            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_zi2kbnkp.json" background="transparent"
+              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
+          </div>
+          <div class="rhconjunto-caracteristicas row">
+            <div class="postit postit-direita postit-amarelo col col">Incentivo à saúde</div>
+            <div class="postit postit-esquerda postit-rosa col col">Orgulho da organização</div>
+            <div class="postit postit-reto postit-azul col col">Evitar procrastinação</div>
+
+          </div>
+        </div>
+        <!-- ======= Fim 5º conjunto RH ======= -->
+        
+
+        <div class="services-slider swiper" data-aos="zoom-in-down" data-aos-duration="2000">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide" data-swiper-autoplay="3000" data-swiper-zoom="5">
+              <div class="services-block">
+                <i class="bi bi-stars"></i>
+                <span>Entretenimento para Funcionários</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-journal-bookmark"></i>
+                <span>Semana SIPAT</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-emoji-smile"></i>
+                <span>Melhorar clima organizacional</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-people"></i>
+                <span>Integração de colaboradores</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-people-fill"></i>
+                <span>Estreitar o relacionamento entre colaboradores/família com
+                  a empresa</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-emoji-laughing"></i>
+                <span>Festa da empresa</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-calendar-check"></i>
+                <span>Datas comemorativas</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-award"></i>
+                <span>Comemoração de metas/conquistas</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-trophy"></i>
+                <span>Metas Atingidas</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-activity"></i>
+                <span>Incentivo a saúde</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-emoji-heart-eyes"></i>
+                <span>Orgulho da organização</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-envelope-x"></i>
+                <span>Evitar procrastinação</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-activity"></i>
+                <span>Menos Doenças psicológicas</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-exclamation-diamond"></i>
+                <span>Menos Burnout</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+
+            <div class="swiper-slide" data-swiper-autoplay="3000">
+              <div class="services-block">
+                <i class="bi bi-person-x"></i>
+                <span>Menos Turnover</span>
+              </div>
+              <div class="services-block">
+                <i class="bi bi-people"></i>
+                <span>Não perca seus talentos</span>
+              </div>
+            </div>
+            <!-- End testimonial item -->
+          </div>
+        </div>
+      </div>
+
+      <div class="container" data-aos="zoom-out-down" data-aos-duration="2000">
+        <div class="section-header">
+          <p>
+            Nossa gama de soluções impactam positivamente seus
+            colaboradores e resolvem diversas situações
+            internas da sua empresa.
+          </p>
+          <p>Dúvida sobre seu orçamento? Nosso preço, é você que faz!</p>
+        </div>
+      </div>
+    </div>
+    <!-- End Rh Section -->
+
+    <!-- ======= Diretoria Section ======= -->
+    <div id="diretoria" class="paddsection">
+      <div class="container">
+        <h2>Para Diretoria</h2>
+        <h3>Resultado de pessoas mais felizes</h3>
+
+        <div class="numerosdiretoria row">
+          <div class="col">
+            <div class="col">
+              <span data-purecounter-start="0" data-purecounter-end="31" data-purecounter-duration="1.5"
+                class="purecounter"></span>
+              <span style="margin-left: -10px;">%</span>
+            </div>
+          </div>
+          <div class="col">
+            <div class="col">
+              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0.5"
+                class="purecounter"></span>
+              <span style="margin-left: -10px;">x</span>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="col">
+              <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="2.5"
+                class="purecounter"></span>
+              <span style="margin-left: -10px;">%</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="titulosnumerosdiretoria row">
+          <div class="titulo1 col">+ Produtivas</div>
+
+          <div class="titulo2 col">+ Criativas</div>
+
+          <div class="titulo3 col">Vendem +</div>
+        </div>
+      </div>
+
+        <div class="row diretoria-container">
+          <div class="col-lg-6 col-md-12">
+            <h2>Reduzem desperdícios</h2>
+            <img src="assets/img/dinheiro-lixo.jpg" data-aos="zoom-in" data-aos-duration="1000"  class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-6 col-md-12">
+            <h2>Valorizam mais os Clientes</h2>
+            <img src="assets/img/aperto-mao.jpg" data-aos="zoom-out" data-aos-duration="1000" class="img-fluid" alt="" />
+          </div>
+          <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="section-description">
+              <p>
+                Melhore os resultados da sua empresa.</p>
+              <p>Com nosso serviço fazendo pessoas mais felizes, podemos estimular ganhos intangíveis impactando
+                significativamente os números de forma positiva. Diversas pesquisas, inclusive internacionais apontam
+                ganhos relevantes com colaboradores em estado de felicidade.
+              </p>
+              <p>E qual é o investimento? Nosso preço, é você que faz!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      <!-- End Diretoria Section -->
+
+      <!-- ======= lojas Section ======= -->
+      <div id="lojas" class="paddsection">
+        <div class="container">
+          <h2>Para Lojas</h2>
+          <div class="comparalojas row" data-aos="zoom-in-up" data-aos-duration="1000">
+            <div class="lojasemfelicidade col">
+              <h3>Loja sem Felicidade</h3>
+              <img src="assets/img/lojavazia.jpeg" class="img-fluid"  alt="" />
+
+            </div>
+            <div class="lojacomfelicidade col">
+              <h3>Loja com Felicidade</h3>
+              <img src="assets/img/lojacheia.jpg" class="img-fluid" alt="" />
+            </div>
+          </div>
+          <div class="compramais" data-aos="zoom-in-up" data-aos-duration="1000">
+            <h3>Cliente compra mais</h3>
+            <img src="assets/img/clientecompramais.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="fideliza">
+            <h3>Cliente Fideliza</h3>
+            <img data-aos="zoom-out-down" data-aos-duration="1000" src="assets/img/clientefidelizado.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="relacaoduradoura">
+            <h3>Relação duradoura com o cliente</h3>
+            <img data-aos="zoom-out-down" data-aos-duration="1000" src="assets/img/relacaoduradoura.jpg" class="img-fluid" alt="" />
+          </div>
+          <div class="clientesapoiam">
+            <h3>Clientes apoiam a loja</h3>
+            <img data-aos="zoom-out-down" data-aos-duration="1000" src="assets/img/clientesapoio.jpeg" class="img-fluid" alt="" />
+          </div>
+          <div class="torcem">
+            <h3>Clientes torcem pela loja</h3>
+            <img data-aos="zoom-out-down" data-aos-duration="1000" src="assets/img/clientestorcendo.jpg" class="img-fluid" alt="" />
+          </div>
+          
+          <div class="textomarketing section-description">
+            <p>Temos a solução ideal para você lojista!</p>
+            <p>Atrair clientes fidelizando com uma relação duradoura. Clientes mais felizes
+              apoiam sua loja e recomendam. O Resultado? Clientes mais satisfeitos e maior retorno. </p>
+            <p>Não perca essa oportunidade!</p>
+            <p>E o preço? É você que faz!</p>
+
+          </div>  
+                    
+            
+        </div>
+      </div>
+      <!-- End lojas Section -->
+
+      <!-- ======= Marketing Section ======= -->
+      <div id="marketing" class="paddsection">
+        <div class="container">
+          <h2>Para Marketing</h2>
+          <div data-aos="zoom-in" data-aos-duration="1000" class="marketinglottie">
+            <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_ctub3znp.json"
+              background="transparent" speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay>
+            </lottie-player>
+          </div>
+          <h3>Clientes felizes com seu produto!</h2>
+            <img src="assets/img/clientemarketingfeliz.jpg" data-aos="zoom-in" data-aos-duration="1000" class="img-fluid" alt="" />
+            <div class="textomarke section-description">
+              <p>Quer engajar seu produto? Te ajudamos!</p>
+               <p>Associar a felicidade aos produtos tem virado uma tendência que foi impulsionada após um longo período de
+                reclusão da nossa geração. Divulgar seu produto conosco pode ser o ideal para sua conquista!</p>
+              <p>Não perca tempo buscando ações complexas e inefetivas tradicionais. </p>
+              <p>E o preço? É você que faz!</p>
+            </div>
+        </div>
+      </div>
+      <!-- End Marketing Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <div id="contact" class="paddsection">
+        <div class="container">
+          <div class="contact-block1">
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="contact-contact">
+                  <h2 class="mb-20">Depoimentos</h2>
+                </div>
+              </div>
+
+
+
+
+              <section id="testimonials" class="testimonials">
+                <div class="container position-relative">
+          
+                  <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="swiper-wrapper">
+          
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                          <h3>John Sandman</h3>
+                          <h4>CEO &amp; Founder</h4>
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Após a incrível experiência com a Fábrica de Felicidade na nossa empresa, o clima organizacional está irreconhecível. Estou muito satisfeito.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                        </div>
+                      </div><!-- End testimonial item -->
+          
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                          <h3>Sara Chen</h3>
+                          <h4>Marketing</h4>
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Nosso lançamento da água saborizada foi um sucesso pelo evento que contratamos a Fábrica de Felicidade.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                        </div>
+                      </div><!-- End testimonial item -->
+          
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                          <h3>Lorena Thompson</h3>
+                          <h4>Gerente de RH</h4>
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Conseguimos despertar algo inacreditável nos nossos colaboradores. Foi o melhor evento que podíamos ter realizado.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                        </div>
+                      </div><!-- End testimonial item -->
+          
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                          <h3>Matt Jordan</h3>
+                          <h4>Dono Mercado Brasil</h4>
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Que inauguração incrível que fizemos na nossa filial ABC! Sr.Miagui é o cara!
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                        </div>
+                      </div><!-- End testimonial item -->
+          
+                      <div class="swiper-slide">
+                        <div class="testimonial-item">
+                          <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+                          <h3>John Larson</h3>
+                          <h4>Diretor de Vendas</h4>
+                          <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                            Conseguimos formar apenas colaboradores em um time de fato. Qubramos a barreira que impedia uma boa comunicação e a gratidão foi enraizada em nós.
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                          </p>
+                        </div>
+                      </div><!-- End testimonial item -->
+          
+                    </div>
+                    <div class="swiper-pagination"></div>
+                  </div>
+          
+                </div>
+              </section><!-- End Testimonials Section -->
+
+              <!-- Novo Depoimento inativo -->
+              <div id="deixedepoimento">
+              <h3 class="mb-30">Deixe seu depoimento</h3>
+                <div class="col-lg-6">
+                  <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                    <div class="row gy-3">
+                      <div class="col-lg-6">
+                        <div class="form-group contact-block1">
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome &#128512;"
+                            required />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-6">
+                        <div class="form-group">
+                          <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail	"
+                            required />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <input type="text" class="form-control" name="subject" id="subject"
+                            placeholder="Qual empresa ou cidade" required />
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                        <div class="form-group">
+                          <textarea class="form-control" name="message" placeholder="Depoimento" required></textarea>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-12">
+                        <div class="loading">Loading</div>
+                        <div class="error-message"></div>
+                        <div class="sent-message">
+                          Your message has been sent. Thank you!
+                        </div>
+                      </div>
+
+                      <div class="mt-0">
+                        <input type="submit" class="btn btn-defeault btn-send" value="Enviar depoimento para análise" />
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+              <!-- End Novo Depoimento -->
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End Contact Section -->
+      <div class="cinema">
+        <h2 >Essa é a sensação</h2>
+        <div class="video">
+          <video id="background-video" width="320" height="240" autoplay loop muted poster="/home-bg-mobile.jpg">
+            <source src="https://media.giphy.com/media/N05lGR0egCG9iwWIAc/giphy.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+
+      <div class="youtube">
+        <div class="titleyoutube">
+          <span style="color: black;">Nosso You</span><span style="color: red;">Tube</span>
+        </div>
+        <img src="/assets/img/youtubelayout.jpg" class="youtube-img" alt="">     
+        <iframe id="yt1" width="320" autoplay height="240" src="https://www.youtube.com/embed/videoseries?list=PLrk1u7dNQurGNkJEUvfHl-8XfLHiZ1BB9&autoplay=1&mute=1&loop=1&iv_load_policy=3&rel=0" title="Fábrica de Felicidade" frameborder="0" allow="accelerometer; mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+      
+
+  </main>
+  <!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.8.0/dist/js-confetti.browser.js"></script>
+  <script>
+    const jsConfetti = new JSConfetti();
+
+  </script>
+
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+    function clickBody() {
+      document.getElementById("containerpromo").style.display = "none";
+      jogaConfete()
+    }
+    document.body.addEventListener("click", clickBody)
+    setTimeout(() => {
+      document.getElementById("containerpromo").style.display = "block"
+      jogaPresente()
+    }, 11000)
+
+    function jogaPresente() {
+      jsConfetti.addConfetti({
+        emojis: ['🎁',',🎊','🎉'],
+        emojiSize: 40,
+        confettiNumber: 60
+    })}
+      
+    function jogaConfete() {
+      jsConfetti.addConfetti({
+        emojis: ['😃', '😁', '🥰', '🤑', '🎉', '💲'],
+        emojiSize: 50,
+        confettiNumber: 120
+    })}
+
+
+    new Swiper('.testimonials-slider', {
+    speed: 600,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    }
+  });
+
+  </script>
+  
+
+
+
+  <script src="assets/vendor/purecounter/purecounter.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+  <script src="assets/vendor/lottie/lottie-player.js"></script>
+
+  <div id="root"></div>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+</body>
+
+</html>
