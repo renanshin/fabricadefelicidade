@@ -949,6 +949,7 @@ p {
     width: 96%;
   }
 }
+
 @media (max-width: 768px) {
   .breadcrumbs .d-flex {
     display: block !important;
@@ -2049,4 +2050,13 @@ ul {
 
 #deixedepoimento {
   display: none;
+}
+
+/*--------------------------------------------------------------
+# para desktop
+--------------------------------------------------------------*/
+@media (min-width: 950px) {
+  #cupom img {
+    width: 50%;
+  }
 }
