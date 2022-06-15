@@ -674,7 +674,7 @@ p {
 #diretoria {
   width: 96%;
   height: auto;
-  background-color: #291c04;
+
   justify-content: center;
   align-items: center;
 }
@@ -705,17 +705,6 @@ p {
   align-items: center;
   margin: 60px 10px 10px;
   opacity: 1;
-  background-image: linear-gradient(
-    to left,
-    #aaaaaa 0,
-    rgb(86, 85, 85) 22%,
-    rgb(184, 184, 184) 50%,
-    rgb(255, 255, 255) 65%,
-    rgb(180, 180, 180) 80%,
-    #888888 100%
-  );
-  color: transparent;
-  -webkit-background-clip: text;
 }
 
 .titulosnumerosdiretoria {
@@ -732,10 +721,19 @@ p {
   text-align: center;
   justify-content: center;
   align-items: center;
-  background: url("/assets/img/dinheiros.jpg") repeat scroll center center/cover;
-  opacity: 1;
+
   margin: 0 7px;
-  z-index: -1;
+}
+
+.escura {
+  background: linear-gradient(
+    53deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 3, 40, 1) 28%,
+    rgba(0, 5, 66, 1) 48%,
+    rgba(0, 4, 42, 1) 78%,
+    rgba(0, 0, 0, 1) 100%
+  );
 }
 
 .diretoria-container img {
@@ -745,6 +743,11 @@ p {
   text-align: center;
   justify-content: center;
   align-items: center;
+
+  border: 10px solid #ffffff;
+  background: black;
+  border-radius: 8px;
+  box-shadow: 0px 1px 20px #fff;
 }
 
 .numerosdiretoria {
@@ -769,15 +772,6 @@ p {
   text-align: center;
   font-weight: 400;
   opacity: 1;
-  background-image: linear-gradient(
-    to left,
-    #efefef 0,
-    #fff 22%,
-    #ddd 60%,
-    #aaaaaa 100%
-  );
-  color: transparent;
-  -webkit-background-clip: text;
 }
 
 .section-description {
@@ -793,28 +787,21 @@ p {
   background: rgb(255, 0, 0);
   background: linear-gradient(
     90deg,
-    rgba(255, 0, 0, 1) 0%,
-    rgb(255, 93, 93) 36%,
-    rgb(255, 77, 77) 48%,
-    rgb(255, 46, 46) 62%,
-    rgba(255, 0, 0, 1) 100%
+    rgba(255, 0, 0, 1) 0%, rgb(252 67 67) 36%, rgb(251 56 56) 48%, rgb(255, 46, 46) 62%, rgba(255, 0, 0, 1) 100% );
   );
 }
 
 #lojas h2 {
-  color: rgb(245, 245, 245);
   font-family: "Poppins", sans-serif;
   letter-spacing: 12px;
   font-weight: bold;
 }
 
 #lojas h3 {
-  color: rgb(237, 235, 235);
   margin-top: 25px;
 }
 
 #lojas p {
-  color: #cdcdcd;
 }
 
 .comparalojas {
@@ -881,17 +868,7 @@ p {
 }
 
 #marketing h2 {
-  opacity: 0.9;
-  background-image: linear-gradient(
-    to left,
-    #efefef 0,
-    #fff 22%,
-    #ddd 60%,
-    #9a9a9a 100%
-  );
-  color: transparent;
 
-  -webkit-background-clip: text;
 }
 
 #marketing .marketinglottie {
@@ -1053,12 +1030,10 @@ p {
   height: auto;
   width: 96%;
   color: white;
-  background: url("/assets/img/wood.jpg");
 }
 
 #contact h2 {
   letter-spacing: 10px;
-  color: white;
 }
 
 #contact .contact-block1 {
@@ -1898,14 +1873,23 @@ ul {
   width: 96%;
 }
 
+.cinema h2{
+  margin-bottom: 30px;
+}
+
 .youtube-img {
   width: 96%;
 }
 
 .youtube {
   font-weight: bold;
-  padding: 40px 0;
+  padding: 25px 0;
   width: 96%;
+  margin-top: 40px;
+
+  border: 4px solid #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 1px 20px #fff;
 }
 
 .titleyoutube {
@@ -2050,6 +2034,28 @@ ul {
 
 #deixedepoimento {
   display: none;
+}
+
+.img-luz {
+  border: 4px solid #ffffff;
+  background: black;
+  border-radius: 8px;
+  box-shadow: 0px 1px 20px #fff;
+  margin-top: 20px;
+}
+
+.prata {
+  background-image: linear-gradient(
+    to left,
+    #aaaaaa 0,
+    rgb(119, 119, 119) 22%,
+    rgb(184, 184, 184) 50%,
+    rgb(255, 255, 255) 65%,
+    rgb(180, 180, 180) 80%,
+    #8f8f8f 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
 }
 
 /*--------------------------------------------------------------
