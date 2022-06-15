@@ -8,6 +8,9 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+html{
+  overflow-x: hidden;
+}
 body {
   background: #ffffff;
   color: #898989;
@@ -582,11 +585,12 @@ p {
 # Menu Mobile
 --------------------------------------------------------------*/
 .menu {
-  width: 96%;
+  width: 100%;
   text-align: center;
   justify-content: center;
   color: #292929;
   font-weight: 600;
+  padding-bottom: 140px;
 
   background: rgb(227, 130, 239);
   background: linear-gradient(
@@ -623,7 +627,7 @@ p {
 # Rh
 --------------------------------------------------------------*/
 #rh {
-  width: 96%;
+  width: 100%;
   height: auto;
   background: rgb(255, 255, 255);
   background: linear-gradient(
@@ -666,13 +670,14 @@ p {
 
 .rhconjunto-caracteristicas {
   margin-top: -70px;
+  margin-right: 8px;
 }
 
 /*--------------------------------------------------------------
 # Diretoria
 --------------------------------------------------------------*/
 #diretoria {
-  width: 96%;
+  width: 100%;
   height: auto;
 
   justify-content: center;
@@ -782,7 +787,7 @@ p {
 # Lojas
 --------------------------------------------------------------*/
 #lojas {
-  width: 96%;
+  width: 100%;
   height: auto;
   background: rgb(255, 0, 0);
   background: linear-gradient(
@@ -793,6 +798,7 @@ p {
 
 #lojas h2 {
   font-family: "Poppins", sans-serif;
+  margin-top: 60px;
   letter-spacing: 12px;
   font-weight: bold;
 }
@@ -820,7 +826,7 @@ p {
 # Marketing
 --------------------------------------------------------------*/
 #marketing {
-  width: 96%;
+  width: 100%;
   height: auto;
   background: linear-gradient(230deg, #ff0000, #0042ff, #ff0000);
   background-size: 600% 600%;
@@ -868,7 +874,7 @@ p {
 }
 
 #marketing h2 {
-
+  margin-top: 60px;
 }
 
 #marketing .marketinglottie {
@@ -923,7 +929,7 @@ p {
   #hero {
     background: url("/home-bg-mobile.jpg") repeat scroll center center/cover;
     height: 90vh;
-    width: 96%;
+    width: 100%;
   }
 }
 
@@ -940,7 +946,7 @@ p {
   #hero {
     background: url("/home-bg-mobile.jpg") repeat scroll center center/cover;
     height: 90vh;
-    width: 96%;
+    width: 100%;
   }
 
   #hero .spaced {
@@ -1028,12 +1034,12 @@ p {
 --------------------------------------------------------------*/
 #contact {
   height: auto;
-  width: 96%;
+  width: 100%;
   color: white;
 }
 
 #contact h2 {
-  letter-spacing: 10px;
+  letter-spacing: 8px;
 }
 
 #contact .contact-block1 {
@@ -1722,7 +1728,7 @@ blockquote {
 .video {
   text-align: center;
   margin-top: -25px;
-  width: 96%;
+  width: 100%;
 }
 
 #background-video {
@@ -1810,7 +1816,7 @@ ul {
   z-index: 2;
   top: 18%;
   height: 60%;
-  width: 96%;
+  width: 100%;
   padding: 3px;
 }
 
@@ -1870,7 +1876,7 @@ ul {
 .cinema {
   background: url("/assets/img/cinema.jpg") no-repeat scroll center center/cover;
   padding: 40px 0;
-  width: 96%;
+  width: 100%;
 }
 
 .cinema h2{
@@ -1884,7 +1890,7 @@ ul {
 .youtube {
   font-weight: bold;
   padding: 25px 0;
-  width: 96%;
+  width: 100%;
   margin-top: 40px;
 
   border: 4px solid #ffffff;
@@ -1902,7 +1908,7 @@ ul {
   color: white;
   margin: 27px auto 4;
 
-  width: 95%;
+  width: 100%;
   height: auto;
   background: linear-gradient(
     172deg,
@@ -1914,6 +1920,7 @@ ul {
   font-size: 10px;
   display: inline-block;
   position: relative;
+  margin-bottom: 40px;
 }
 
 @keyframes zoominoutsinglefeatured {

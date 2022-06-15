@@ -1,6 +1,7 @@
 .App {
   text-align: center;
-  width: 96%;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .App-logo {
@@ -34,7 +35,18 @@
 }
 
 h2 {
-  color: rgb(228, 228, 228);
+  background-image: linear-gradient(
+    to left,
+    #aaaaaa 0,
+    rgb(119, 119, 119) 22%,
+    rgb(184, 184, 184) 50%,
+    rgb(255, 255, 255) 65%,
+    rgb(180, 180, 180) 80%,
+    #8f8f8f 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+  margin: 40px 0;
   align-items: center;
   justify-content: center;
   text-align: center;
