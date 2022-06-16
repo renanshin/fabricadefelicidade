@@ -57,6 +57,22 @@ const QuizContainerEnd = styled.div`
   }
 `;
 
+const QuizContainerPaolo = styled.div`
+  padding: 10px 10px 0 10px;
+  border: 2px solid #333333;
+  box-shadow: -1px 1px #777777, -2px 2px #777777, -4px 3px #777777,
+    -6px 4px #777777, -12px 8px #777777;
+  width: 100%;
+  max-width: 350px;
+  padding-top: 15px;
+  margin: 10px 10%;
+  transform: rotate(-3deg);
+  @media screen and (max-width: 500px) {
+    margin: 10px;
+    padding: 15px;
+  }
+`;
+
 const TimeCards = styled.div`
   display: flex;
   justifycontent: center;
@@ -179,6 +195,32 @@ const Contato = () => {
               </CardContent>
             </Card>
           </QuizContainerEnd>
+        </Tilt>
+
+        <Tilt>
+          <QuizContainerPaolo
+            style={{ background: "rgba(252, 244, 3, 0.3)", borderRadius: 15 }}
+          >
+            {/* Miyagi Card*/}
+            <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
+              <CardMedia
+                component="img"
+                alt="Paolo Shin"
+                height="345"
+                image="/paolo.jpg"
+              />
+              <CardContent>
+                <Typography gutterBottom variant="h5" component="div">
+                  Paolo
+                </Typography>
+                <Typography variant="body2" color="text.secondary">
+                  Esse carinha é o que nos faz ter forças para sempre seguirmos
+                  em frente. Sempre ligado nas nossas reuniões internas e atento
+                  a todos os detalhes. Além de mascote, é realmente a razão.
+                </Typography>
+              </CardContent>
+            </Card>
+          </QuizContainerPaolo>
         </Tilt>
       </TimeCards>
     </section>
