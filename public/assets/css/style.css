@@ -601,12 +601,13 @@ p {
   );
 }
 
-.menu h2 {
-  color: #888888;
-  font-size: medium;
-  font-weight: 200;
+.menu h3 {
+  font-family: "Times New Roman", serif;
+  font-size: larger;
+  color: #ddd;
+  font-weight: 600;
   letter-spacing: 8px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgb(36, 36, 36,0.1);
 }
 
 .menu .menuitem {
@@ -650,7 +651,7 @@ p {
     rgb(99, 99, 99) 0%,
     rgb(110, 110, 110) 40%,
     rgb(168, 168, 168) 60%,
-    rgb(172, 185, 255) 63%,
+    rgb(222, 227, 254) 61%,
     rgba(102, 115, 255, 1) 79%,
     rgba(63, 92, 255, 1) 100%
   );
@@ -2065,11 +2066,57 @@ ul {
   -webkit-background-clip: text;
 }
 
+.prata-clara {
+  background-image: linear-gradient(
+    to left,
+    #aaa 0,
+    rgb(250, 250, 250) 22%,
+    rgb(200, 200, 200) 50%,
+    rgb(255, 255,255) 65%,
+    rgb(235, 235, 235) 80%,
+    #aaa 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
+.prata-escura {
+  background-image: linear-gradient(
+    to left,
+    #aaa 0,
+    rgb(111, 111, 111) 22%,
+    rgb(170, 170, 170) 50%,
+    rgb(111, 111,111) 65%,
+    rgb(140, 140, 140) 80%,
+    #555 100%
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 /*--------------------------------------------------------------
 # para desktop
 --------------------------------------------------------------*/
 @media (min-width: 950px) {
   #cupom img {
     width: 50%;
+  }
+
+  #rh h2 {
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 12px;
+    margin-bottom: -100px;
+    background: linear-gradient(
+      62deg,
+      rgb(44, 44, 44) 0%,
+      rgb(100, 100, 100) 30%,
+      rgb(170, 170, 170) 49%,
+      rgb(222, 227, 254) 55%,
+      rgba(102, 115, 255, 1) 59%,
+      rgba(63, 92, 255, 1) 100%
+    );
+    color: transparent;
+    font-size: 4rem;
+    -webkit-background-clip: text;
   }
 }

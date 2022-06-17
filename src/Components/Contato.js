@@ -66,7 +66,7 @@ const QuizContainerPaolo = styled.div`
   max-width: 350px;
   padding-top: 15px;
   margin: 10px 10%;
-  transform: rotate(-3deg);
+  transform: rotate(3deg);
   @media screen and (max-width: 500px) {
     margin: 10px;
     padding: 15px;
@@ -199,7 +199,7 @@ const Contato = () => {
 
         <Tilt>
           <QuizContainerPaolo
-            style={{ background: "rgba(252, 244, 3, 0.3)", borderRadius: 15 }}
+            style={{ background: "rgba(0, 255, 0, 0.5)", borderRadius: 15 }}
           >
             {/* Miyagi Card*/}
             <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
