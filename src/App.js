@@ -9,7 +9,7 @@ function App() {
       </header>
       <footer>
         2022 Fábrica de Felicidade - O sonho de levar felicidade para as
-        empresas
+        empresas. Verdadeira felicidade no trabalho.
       </footer>
     </div>
   );

@@ -978,6 +978,16 @@ p {
     color: #fff;
   }
 
+  .hero-content h2 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #fff;
+  }
+
   .hero-content p {
     font-size: 14px;
   }
