@@ -598,7 +598,7 @@
       <div class="cinema">
         <h2 >Essa é a sensação</h2>
         <div class="video" data-aos="zoom-in-up" data-aos-duration="500">
-          <video class="img-luz" id="background-video" width="320" height="240" autoplay loop muted poster="/home-bg-mobile.jpg">
+          <video class="img-luz" id="background-video" preload="none" width="320" height="240" autoplay loop muted poster="/home-bg-mobile.jpg">
             <source loading="lazy" src="https://media.giphy.com/media/N05lGR0egCG9iwWIAc/giphy.mp4" type="video/mp4" />
           </video>
         </div>
@@ -608,7 +608,7 @@
         <div class="titleyoutube">
           <span class="prata-escura">Nosso </span><span style="color: black;">You</span><span style="color: red;">Tube</span>
         </div>
-        <img loading="lazy"  src="/assets/img/youtubelayout.jpg" class="youtube-img" alt="layout do youtube">     
+        <img loading="lazy" src="/assets/img/youtubelayout.jpg" class="youtube-img" alt="layout do youtube">     
         <iframe data-aos="zoom-in-up" data-aos-duration="500" loading="lazy" id="yt5" class="img-luz" width="320"  height="240" src="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-SNeyjSb7eL3BY5Gb4WWrUP&autoplay=0&mute=1&loop=1&iv_load_policy=3&rel=0" title="Fábrica de Felicidade" frameborder="0" allow="accelerometer; mute; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </div>
       
@@ -628,7 +628,6 @@
   <script src="https://cdn.jsdelivr.net/npm/js-confetti@0.8.0/dist/js-confetti.browser.js"></script>
   <script>
     const jsConfetti = new JSConfetti();
-
   </script>
 
 
@@ -673,6 +672,16 @@
       type: 'bullets',
       clickable: true
     }
+  });
+
+  window.addEventListener("load", function(event) {
+    document.getElementById("main").style.display = "block"
+    document.getElementById("background-video").preload = "auto"
+    const rhlottie = document.querySelectorAll('.rhlottie');
+    rhlottie.forEach(element => {
+      element.style.display = 'inline-block';
+    });
+    
   });
 
   </script>

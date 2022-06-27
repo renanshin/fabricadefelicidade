@@ -181,6 +181,9 @@ p {
   margin-bottom: 30px;
 }
 
+#main {
+}
+
 .main-content {
   padding-top: 140px;
 }
@@ -662,7 +665,7 @@ p {
 }
 
 #rh .rhlottie {
-  display: inline-block;
+  display: none;
   text-align: center;
   justify-content: center;
   align-items: center;
