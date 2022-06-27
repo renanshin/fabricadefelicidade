@@ -1,10 +1,11 @@
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
-import CardMedia from "@mui/material/CardMedia";
+
 import Typography from "@mui/material/Typography";
 import styled from "styled-components";
 import VanillaTilt from "vanilla-tilt";
 import React from "react";
+const CardMedia = React.lazy(() => import("@mui/material/CardMedia"));
 
 //mudar o data ou remover
 
