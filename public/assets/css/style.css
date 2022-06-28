@@ -196,7 +196,7 @@ p {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  margin-right: 50px;
+  margin-right: 20px;
   bottom: 15px;
   z-index: 996;
   background: #b8a07e;
@@ -364,7 +364,7 @@ p {
   display: none;
   line-height: 0;
   transition: 0.5s;
-  margin-right: 40px;
+  margin-right: 20px;
 }
 .mobile-nav-toggle.bi-x {
   color: #fff;
