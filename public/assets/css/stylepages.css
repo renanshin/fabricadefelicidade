@@ -700,6 +700,7 @@ blockquote {
   background: #f7f7f7;
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: 12px;
 }
 
 #footer .socials-media {
@@ -1184,6 +1185,10 @@ blockquote {
   );
   color: transparent;
   -webkit-background-clip: text;
+}
+
+.footer {
+  font-size: 12px;
 }
 
 /*--------------------------------------------------------------
