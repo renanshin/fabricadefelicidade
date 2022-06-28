@@ -60,13 +60,12 @@ h6 {
 }
 
 h2 {
-  color: #292929;
-  font-size: 2.5rem;
-  font-weight: 700;
-  font-family: "Times New Roman", serif;
+  color: #444444;
+  margin: 20px 0;
+  font-size: 1.2rem;
+  font-weight: 500;
   text-align: center;
-  letter-spacing: 15px;
-  font-weight: 700;
+  letter-spacing: 3px;
 }
 h3 {
   font-size: 1.75rem;
@@ -80,7 +79,8 @@ h4 {
 }
 
 a {
-  color: #292929;
+  color: #a36f27;
+  font-weight: 400;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
 }
@@ -90,10 +90,10 @@ a:hover {
 }
 
 p {
-  margin: 25px 0;
+  margin: 25px 22px;
   padding: 0;
-  font-size: 17px;
-  color: #888888;
+  font-size: 18px;
+  color: #696969;
   line-height: 28px;
 }
 
@@ -499,17 +499,13 @@ p {
   }
 }
 
-
-
 /*--------------------------------------------------------------
 # para especifico mobile
 --------------------------------------------------------------*/
 @media (max-width: 390px) {
-
 }
 
 @media (max-width: 768px) {
-  
 }
 
 /*--------------------------------------------------------------
@@ -1116,19 +1112,18 @@ blockquote {
     font-size: 32px;
   }
 
-ul,
-li {
-  padding: 8px;
-  list-style: none;
+  ul,
+  li {
+    padding: 8px;
+    list-style: none;
+  }
+  ul {
+    font-family: "Reenie Beanie";
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
-ul {
-  font-family: "Reenie Beanie";
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-
 
 @media (min-width: 1024px) {
   .testimonials {

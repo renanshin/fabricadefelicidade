@@ -102,6 +102,7 @@ const Contato = () => {
         <Tilt>
           <QuizContainer
             style={{ background: "rgba(3, 252, 255, 0.3)", borderRadius: 15 }}
+            id="Shin"
           >
             {/* Shin Card*/}
             <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
