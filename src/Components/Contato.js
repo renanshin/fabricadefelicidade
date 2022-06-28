@@ -118,15 +118,16 @@ const Contato = () => {
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
                   Nosso CEO é o cara mão na massa. Olha isso: 17 anos na área de
-                  tecnologia, foi diretor de T.I, desenvolvedor em mais de 15
-                  linguagens, professor, TechLead, técnico em eletrônica, DBA,
-                  palestrante, metalúrgico, músico multiinstrumentista, bacharel
-                  em Análise de Sistemas e TI, pós graduado em Gestão de Equipes
-                  e Viabilidade de Projetos, arquiteto certificado AWS, mais de
-                  30 certificações como ITIL, SCRUM, Qualidade, ISO20000 etc,foi
-                  capitão de futebol, dançarino e coreógrafo, trabalhou no Japão
-                  aos 16 anos, corredor, extensão em Psicologia e Segurança no
-                  Trabalho, instrutor internacional Zumba e também FitDance,
+                  tecnologia, foi diretor de T.I, extensão em Neurosciência,
+                  Aprendizagem, Psicologia e Segurança no Trabalho desenvolvedor
+                  em mais de 15 linguagens, professor, TechLead, técnico em
+                  eletrônica, DBA, palestrante, metalúrgico, músico
+                  multiinstrumentista, bacharel em Análise de Sistemas e TI, pós
+                  graduado em Gestão de Equipes e Viabilidade de Projetos,
+                  arquiteto certificado AWS, mais de 30 certificações como ITIL,
+                  SCRUM, Qualidade, ISO20000 etc,foi capitão de futebol,
+                  dançarino e coreógrafo, trabalhou no Japão aos 16 anos,
+                  corredor, instrutor internacional Zumba e também FitDance,
                   amante de filosofia, analista de processos, organizador de
                   grandes eventos, pai, nadador, fez trabalhos voluntários e
                   emergentes. Este é um pequeno resumo do nosso grande
