@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 0;
+  margin: 40px;
 }
 
 h2 {
@@ -1232,29 +1232,12 @@ blockquote {
   filter: drop-shadow(10px 1px 10px #099abee1);
 }
 
+address {
+  margin: 4px;
+}
+
 /*--------------------------------------------------------------
 # para desktop
 --------------------------------------------------------------*/
 @media (min-width: 950px) {
-  #cupom img {
-    width: 50%;
-  }
-
-  #rh h2 {
-    font-family: "Poppins", sans-serif;
-    letter-spacing: 12px;
-    margin-bottom: -100px;
-    background: linear-gradient(
-      62deg,
-      rgb(44, 44, 44) 0%,
-      rgb(100, 100, 100) 30%,
-      rgb(170, 170, 170) 49%,
-      rgb(222, 227, 254) 55%,
-      rgba(102, 115, 255, 1) 59%,
-      rgba(63, 92, 255, 1) 100%
-    );
-    color: transparent;
-    font-size: 4rem;
-    -webkit-background-clip: text;
-  }
 }
