@@ -105,18 +105,32 @@ const Contato = () => {
             id="Shin"
           >
             {/* Shin Card*/}
-            <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
+            <Card
+              sx={{ maxWidth: 345, borderRadius: 15 }}
+              itemScope
+              itemType="https://schema.org/Person"
+            >
               <CardMedia
                 component="img"
                 alt="Shin"
                 height="345"
                 image="/team-1.jpg"
+                itemProp="image"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography
+                  itemProp="name"
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                >
                   Shin
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  itemProp="knowsAbout"
+                >
                   Nosso CEO é o cara mão na massa. Olha isso: 17 anos na área de
                   tecnologia, foi diretor de T.I, extensão em Neurosciência,
                   Aprendizagem, Psicologia e Segurança no Trabalho desenvolvedor
@@ -143,18 +157,32 @@ const Contato = () => {
             style={{ background: "rgba(252, 244, 3, 0.3)", borderRadius: 15 }}
           >
             {/* Miyagi Card*/}
-            <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
+            <Card
+              sx={{ maxWidth: 345, borderRadius: 15 }}
+              itemScope
+              itemType="https://schema.org/Person"
+            >
               <CardMedia
                 component="img"
                 alt="Senhor Miyagi"
                 height="345"
                 image="/team-2.jpg"
+                itemProp="image"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  itemProp="name"
+                >
                   Sr.Miyagi
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  itemProp="knowsAbout"
+                >
                   Com 70 anos é o nosso tesouro com sua vitalidade e disposição.
                   23 anos de experiência bancária e morou 17 anos no Japão. Aos
                   60 anos recebeu uma notícia trágica que 70% das veias do seu
@@ -175,18 +203,32 @@ const Contato = () => {
           <QuizContainerEnd
             style={{ background: "rgba(252, 3, 219, 0.3)", borderRadius: 10 }}
           >
-            <Card sx={{ maxWidth: 345, borderRadius: 15 }}>
+            <Card
+              sx={{ maxWidth: 345, borderRadius: 15 }}
+              itemScope
+              itemType="https://schema.org/Person"
+            >
               <CardMedia
                 component="img"
                 alt="Tati Franco"
                 height="345"
                 image="/team-3.jpg"
+                itemProp="image"
               />
               <CardContent>
-                <Typography gutterBottom variant="h5" component="div">
+                <Typography
+                  gutterBottom
+                  variant="h5"
+                  component="div"
+                  itemProp="name"
+                >
                   Tati Franco
                 </Typography>
-                <Typography variant="body2" color="text.secondary">
+                <Typography
+                  variant="body2"
+                  color="text.secondary"
+                  itemProp="knowsAbout"
+                >
                   Experiência em dashboards, finanças, adm e mkt social, é a
                   força feminina do nosso time. Após a experiência frustrante de
                   ser consumida pela rotina cruel de um dos seus trabalhos,
