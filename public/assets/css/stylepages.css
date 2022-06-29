@@ -1189,6 +1189,47 @@ blockquote {
 
 .footer {
   font-size: 12px;
+  background-color: #000;
+  margin: 0px;
+}
+
+.list-social li {
+  display: inline-block;
+  margin: 5px 10px;
+}
+.list-social li i {
+  color: #eee;
+  font-size: 1.2rem;
+  letter-spacing: 15px;
+}
+
+.list-unstyled {
+  margin-bottom: -6px;
+  padding-top: 8px;
+}
+
+.glow-blue {
+  color: #fff;
+  text-align: center;
+  filter: drop-shadow(0 0 0.98rem rgba(0, 238, 255, 0.966));
+}
+
+.glow-pink {
+  color: #fff;
+  text-align: center;
+  filter: drop-shadow(0 0 0.98rem rgba(255, 0, 76, 0.966));
+}
+
+.glow-gold {
+  color: rgb(246, 248, 130);
+  text-align: center;
+  filter: drop-shadow(0 0 0.98rem rgba(241, 255, 44, 0.966));
+}
+
+.glow-menu {
+  color: #fff;
+  text-align: center;
+  filter: drop-shadow(10px 1px 10px #099abee1);
 }
 
 /*--------------------------------------------------------------
