@@ -1198,13 +1198,19 @@ p {
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #696969;
   transition: all 0.5s ease-in-out 0s;
 }
 
 .journal-txt h4 a:hover {
   color: #b8a07e;
   transition: all 0.5s ease-in-out 0s;
+}
+
+.journal-info {
+  height: fit-content;
+  background-color: #fefefe;
+  border-radius: 10px;
 }
 
 .post-meta ul li {
@@ -2124,6 +2130,10 @@ ul {
   );
   color: transparent;
   -webkit-background-clip: text;
+}
+
+.journal-txt .separator {
+  margin-top: 0;
 }
 
 /*--------------------------------------------------------------

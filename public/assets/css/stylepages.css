@@ -56,13 +56,13 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 40px;
+  margin: 80px auto 20px;
 }
 
 h2 {
-  color: #444444;
-  margin: 20px 0;
-  font-size: 1.2rem;
+  color: #646464;
+  margin: 20px 8px;
+  font-size: 1.5rem;
   font-weight: 500;
   text-align: center;
   letter-spacing: 3px;
@@ -79,7 +79,7 @@ h4 {
 }
 
 a {
-  color: #a36f27;
+  color: #1e90ff;
   font-weight: 400;
   text-decoration: none !important;
   transition: all 0.5s ease-in-out 0s;
@@ -90,11 +90,13 @@ a:hover {
 }
 
 p {
-  margin: 25px 22px;
+  margin: 26px 22px;
   padding: 0;
-  font-size: 18px;
+  font-size: 17px;
   color: #696969;
-  line-height: 28px;
+  line-height: 26px;
+  text-align: initial;
+  font-family: emoji;
 }
 
 ::-moz-selection {
@@ -734,12 +736,13 @@ blockquote {
   transition: all 0.5s ease-in-out 0s;
 }
 
-#footer p {
-  font-size: 12px;
+footer p {
+  font-size: 10px;
   letter-spacing: 0.1em;
   font-weight: 500;
-  margin-top: 0;
+  margin: 40px;
   text-transform: uppercase;
+  text-align: center;
 }
 
 .credits {
@@ -1234,6 +1237,60 @@ blockquote {
 
 address {
   margin: 4px;
+}
+
+.letter {
+  background: #daf0ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  margin: 30px auto 20px;
+  max-width: 850px;
+  padding: 4px;
+  position: relative;
+  width: 90%;
+}
+.letter:before,
+.letter:after {
+  content: "";
+  height: 98%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+.letter:before {
+  background: #fafafa;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+  left: -5px;
+  top: 4px;
+  transform: rotate(-2.5deg);
+}
+.letter:after {
+  background: #f6f6f6;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  right: -3px;
+  top: 1px;
+  transform: rotate(1.4deg);
+}
+
+.superior {
+  background-color: #000;
+}
+
+.p-superior {
+  margin: 0;
+  font-size: 11px;
+  letter-spacing: 5px;
+  color: #fff;
+  font-weight: 100;
+  font-family: monospace;
+  text-align: center;
+}
+
+address {
+  font-size: 12px;
+}
+
+.verificado {
+  margin: 10px;
 }
 
 /*--------------------------------------------------------------
