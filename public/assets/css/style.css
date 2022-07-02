@@ -226,7 +226,7 @@ p {
   transition: all 0.5s;
   z-index: 997;
   padding: 15px 0;
-  background-color: #fff;
+  background-color: #fcf712;
   top: -100%;
   box-shadow: 0px 2px 25px rgba(0, 0, 0, 0.08);
 }
