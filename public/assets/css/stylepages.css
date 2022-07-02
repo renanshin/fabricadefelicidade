@@ -56,7 +56,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 80px auto 20px;
+  margin: 0;
 }
 
 h2 {
@@ -606,13 +606,21 @@ p {
   width: 100%;
 }
 
+.journal-txt .separator {
+  margin-top: 0;
+}
+
+.journal-txt {
+  margin-top: 0;
+}
+
 .journal-txt h4 a {
   display: block;
   font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px 0;
   font-weight: 500;
-  color: #292929;
+  color: #696969;
   transition: all 0.5s ease-in-out 0s;
 }
 
