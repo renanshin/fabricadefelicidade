@@ -1807,7 +1807,7 @@ blockquote {
 }
 
 .video {
-  text-align: center;
+  text-align: -webkit-center;
   margin-top: -25px;
   width: 100%;
 }
@@ -2231,4 +2231,9 @@ ul {
     font-size: 4rem;
     -webkit-background-clip: text;
   }
+}
+
+.video-ajustado {
+  width: fit-content;
+  padding: 15px;
 }
