@@ -298,7 +298,15 @@ p {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #b8a07e;
+  color: #fff;
+  background-color: rgb(212, 0, 255);
+  border-radius: 20px;
+  padding: 8px;
+  list-style: none;
+  align-content: center;
+  width: auto;
+  text-align: center;
+  align-items: center;
 }
 .navbar .dropdown ul {
   display: block;
@@ -327,7 +335,15 @@ p {
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
 .navbar .dropdown ul li:hover > a {
-  color: #b8a07e;
+  color: #fff;
+  background-color: rgb(212, 0, 255);
+  border-radius: 20px;
+  padding: 8px;
+  list-style: none;
+  align-content: center;
+  width: auto;
+  text-align: center;
+  align-items: center;
 }
 .navbar .dropdown:hover > ul {
   opacity: 1;
@@ -416,7 +432,15 @@ p {
 .navbar-mobile a:hover,
 .navbar-mobile .active,
 .navbar-mobile li:hover > a {
-  color: #b8a07e;
+  color: #fff;
+  background-color: rgb(212, 0, 255);
+  border-radius: 20px;
+  padding: 8px;
+  list-style: none;
+  align-content: center;
+  width: auto;
+  text-align: center;
+  align-items: center;
 }
 .navbar-mobile .getstarted,
 .navbar-mobile .getstarted:focus {
@@ -445,7 +469,15 @@ p {
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
 .navbar-mobile .dropdown ul li:hover > a {
-  color: #b8a07e;
+  color: #fff;
+  background-color: rgb(212, 0, 255);
+  border-radius: 20px;
+  padding: 8px;
+  list-style: none;
+  align-content: center;
+  width: auto;
+  text-align: center;
+  align-items: center;
 }
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
