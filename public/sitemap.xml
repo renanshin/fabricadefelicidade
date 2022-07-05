@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://fabricadefelicidade.com/</loc>
-    <lastmod>2022-07-01</lastmod>
+    <lastmod>2022-07-05</lastmod>
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/burnout</loc>
@@ -18,7 +18,7 @@
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/artigos</loc>
-    <lastmod>2022-07-02</lastmod>
+    <lastmod>2022-07-05</lastmod>
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/categorias</loc>
@@ -34,7 +34,7 @@
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/categoria-fabrica-de-felicidade</loc>
-    <lastmod>2022-07-01</lastmod>
+    <lastmod>2022-07-05</lastmod>
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/categoria-trabalho</loc>
@@ -46,6 +46,10 @@
   </url>
   <url>
     <loc>https://fabricadefelicidade.com/felicidade-no-trabalho</loc>
-    <lastmod>2022-07-02</lastmod>
+    <lastmod>2022-07-05</lastmod>
+  </url> 
+  <url>
+    <loc>https://fabricadefelicidade.com/senhor-miagui</loc>
+    <lastmod>2022-07-05</lastmod>
   </url> 
 </urlset>

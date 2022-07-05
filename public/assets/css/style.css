@@ -196,10 +196,10 @@ p {
   visibility: hidden;
   opacity: 0;
   right: 15px;
-  margin-right: 20px;
+  margin-right: 10px;
   bottom: 15px;
   z-index: 996;
-  background: #b8a07e;
+  background: #ffe600;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -207,12 +207,12 @@ p {
 }
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: rgb(255, 0, 255);
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #c6b398;
-  color: #fff;
+  background: #fa84e6;
+  color: rgb(255, 0, 255);
 }
 .back-to-top.active {
   visibility: visible;
