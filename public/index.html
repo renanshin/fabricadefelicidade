@@ -1,484 +1,788 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+  <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-WEPVSC9PVR"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-WEPVSC9PVR"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      gtag("config", "G-WEPVSC9PVR");
+    </script>
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MNKSSZV");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta http-equiv="cache-control" content="public" />
+    <meta
+      name="description"
+      content="Fábrica de Felicidade, especialista em felicidade gerando resultados nas empresas. Soluções para RH, marketing, diretores e lojistas. Felicidade no trabalho."
+    />
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="robots" content="index,follow" />
+    <meta
+      name="keywords"
+      content="engajamento,clientes,você,loja,menos,solução,para,mais,nosso felicidade no trabalho, Shin, miyagi, miagui, lojista, marketing, rh, diretoria, empresa, Procrastinação , incentivo , saúde, Doenças, psicológicas, Comemoração, Metas, atingidas, SIPAT, Entretenimento, colaboradores, festa, Relacionamento, Integração, Clima , organizacional, Recursos, humanos, pessoas, Turnover, sucesso, Produtividade, Desperdício, Felicidade, resultado, Gerando, Resultados, Stress, estresse, Burnout, fábrica"
+    />
 
-    gtag('config', 'G-WEPVSC9PVR');
-  </script>
-  <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-MNKSSZV');</script>
-  <!-- End Google Tag Manager -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#000000" />
-  <meta http-equiv="cache-control" content="public">
-  <meta name="description" content="Fábrica de Felicidade, especialista em felicidade gerando resultados nas empresas. Soluções para RH, marketing, diretores e lojistas. Felicidade no trabalho." />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
-  <meta name="robots" content="index,follow">
-  <meta name="keywords" content="engajamento,clientes,você,loja,menos,solução,para,mais,nosso felicidade no trabalho, Shin, miyagi, miagui, lojista, marketing, rh, diretoria, empresa, Procrastinação , incentivo , saúde, Doenças, psicológicas, Comemoração, Metas, atingidas, SIPAT, Entretenimento, colaboradores, festa, Relacionamento, Integração, Clima , organizacional, Recursos, humanos, pessoas, Turnover, sucesso, Produtividade, Desperdício, Felicidade, resultado, Gerando, Resultados, Stress, estresse, Burnout, fábrica">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
 
-  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <title>Fábrica de Felicidade Trabalho RH Integração Burnout Sucesso</title>
+    <link rel="canonical" href="https://fabricadefelicidade.com/" />
+    <meta property="og:title" content="Fábrica de Felicidade" />
+    <meta
+      property="og:description"
+      content="Felicidade no trabalho, Engajamento, Sucesso, Burnout, Loja, Stress"
+    />
+    <meta
+      property="og:og:image"
+      content="https://fabricadefelicidade.com/assets/img/logo.png"
+    />
 
-  <title>Fábrica de Felicidade Trabalho RH Integração Burnout Sucesso</title>
-  <link rel="canonical" href="https://fabricadefelicidade.com/" />
-  <meta property="og:title" content="Fábrica de Felicidade" />
-  <meta property="og:description" content="Felicidade no trabalho, Engajamento, Sucesso, Burnout, Loja, Stress" />
-  <meta property="og:og:image" content="https://fabricadefelicidade.com/assets/img/logo.png" />
+    <!-- Favicons -->
+    <link href="assets/img/favicon.ico" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.ico" rel="icon" />
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+    <!-- Removidos todos css -->
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- Removidos todos css -->
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i"
-    rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+    <link href="assets/css/aos.css" rel="stylesheet" />
 
-  <link href="assets/css/aos.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet" /> 
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MNKSSZV"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center justify-content-between">
+        <a href="/" class="logo"
+          ><img
+            src="assets/img/logo-escrito-fabrica-de-felicidade.png"
+            alt="logo Fábrica de Felicidade no trabalho"
+            class="img-fluid logo-animado"
+        /></a>
 
-</head>
+        <nav id="navbar" class="navbar">
+          <ul>
+            <li>
+              <a class="nav-link scrollto active" href="#hero">Home</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#rh">Solução RH</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#diretoria"
+                >Solução Diretoria</a
+              >
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#lojas">Solução Lojas</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#marketing"
+                >Solução Marketing</a
+              >
+            </li>
+            <li><a class="nav-link scrollto" href="#artigos">Artigos</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#nossotime">Nosso Time</a>
+            </li>
 
-<body>
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-  <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MNKSSZV"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-  <!-- End Google Tag Manager (noscript) -->
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex align-items-center justify-content-between">
-      <a href="/" class="logo"><img src="assets/img/logo-escrito-fabrica-de-felicidade.jpg" alt="logo Fábrica de Felicidade no trabalho" class="img-fluid" /></a>
+            <li>
+              <a class="nav-link scrollto" href="#contact">Depoimentos</a>
+            </li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
+      </div>
+    </header>
+    <!-- End Header -->
 
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li>
-            <a class="nav-link scrollto active" href="#hero">Home</a>
-          </li>
-          <li>
-            <a class="nav-link scrollto" href="#rh">Solução RH</a>
-          </li>
-          <li>
-            <a class="nav-link scrollto" href="#diretoria">Solução Diretoria</a>
-          </li>
-          <li>
-            <a class="nav-link scrollto" href="#lojas">Solução Lojas</a>
-          </li>
-          <li>
-            <a class="nav-link scrollto" href="#marketing">Solução Marketing</a>
-          </li>
-          <li><a class="nav-link scrollto" href="#artigos">Artigos</a></li>
-          <li>
-            <a class="nav-link scrollto" href="#nossotime">Nosso Time</a>
-          </li>
-
-          <li><a class="nav-link scrollto" href="#contact">Depoimentos</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav>
-      <!-- .navbar -->
-    </div>
-  </header>
-  <!-- End Header -->
-
-  <!-- ======= Promo Section ======= -->
-  <div id="containerpromo">
-    <p style="font-size: 10px;">Fechar [X]</p>
-    <div id="cupom">  
-      <img src="assets/img/cartaopresentedourado.jpg" class="logo glow-gold" alt="Cartão presente você escolhe o nosso preço" />
-    </div>
-  </div>
-  
-
-  <!-- ======= Hero Section ======= -->
-  <div id="hero" class="home">
-    <div class="container">
-      <div class="hero-content" itemscope itemtype="https://schema.org/Organization">
-        <p class="logo-inicio">
-          <img itemprop="image" src="assets/img/logo-sem-fundo.png" class="logo glow" alt="logo neon Fábrica de Felicidade no trabalho" />
-        </p>
-        <h1 class="glow-gold" itemprop="name">Fábrica de Felicidade</h1>
-        <h4 class="glow-pink">Felicidade Gerando Resultados</h4>
-        <h2 class=""><span class="typed glow-pink" data-typed-items=", + Sucesso , - Turnover, + Engajamento, - Desperdício, + Produtividade, - Burnout"></span></h2>
-
-        <p class="glow-pink">Siga nas Redes Sociais</p>
-
-        <ul class="list-unstyled list-social glow-blue">
-          <li>
-            <a itemprop="sameAs" href="https://www.facebook.com/fabricadefelicidadeoficial"><i class="bi bi-facebook"></i></a>
-          </li>
-          <li>
-            <a itemprop="sameAs" href="https://www.instagram.com/fabricadefelicidadeoficial/"><i class="bi bi-instagram"></i></a>
-          </li>
-          <li>
-            <a itemprop="sameAs" href="https://www.linkedin.com/company/fabricadefelicidadeoficial/"><i class="bi bi-linkedin"></i></a>
-          </li>
-          <li>
-            <a itemprop="sameAs" href="https://www.youtube.com/channel/UCcZQTOsOuK6axFxK5LALZJw"><i class="bi bi-youtube"></i></a>
-          </li>
-          <li>
-            <a itemprop="sameAs" href="https://wa.me/message/VSHMGGHX2KXDL1"><i class="bi bi-whatsapp"></i></a>
-          </li>
-        </ul>
-
+    <!-- ======= Promo Section ======= -->
+    <div id="containerpromo">
+      <p style="font-size: 10px">Fechar [X]</p>
+      <div id="cupom">
+        <img
+          src="assets/img/cartaopresentedourado.jpg"
+          class="logo glow-gold"
+          alt="Cartão presente você escolhe o nosso preço"
+        />
       </div>
     </div>
-  </div>
-  <div class="arrow arrow-first"></div>
-  <div class="arrow arrow-second"></div>  
 
-  <div id="menu" class="menu paddsection">
-    <h3>Soluções</h3>
-    <div id="solucoes" >
-      
-      <div class="menuitem glow-menu"><a href="#rh"><i class="bi bi-people"></i> RH</a></div>
-      <div class="menuitem glow-menu">
-        <a href="#diretoria"><i class="bi bi-briefcase"></i> Diretoria</a>
-      </div>
-      <div class="menuitem glow-menu"><a href="#lojas"><i class="bi bi-shop"></i> Lojas</a></div>
-      <div class="menuitem glow-menu"><a href="#marketing"><i class="bi bi-boxes"></i> Marketing</a></div>
-      <div class="menuitem glow-menu"><a href="#artigos">Artigos</a></div>
-      <div class="menuitem glow-menu"><a href="#nossotime">Nosso Time</a></div>
-      <div class="menuitem glow-menu"><a href="#contact">Depoimentos</a></div>
-    </div>
-
-    
-  </div>
-  <!-- End Menu -->
-
-  <main id="main" itemscope itemtype="https://schema.org/Organization">
-    <!-- ======= Rh Section ======= -->
-    <div id="rh" class="paddsection">
+    <!-- ======= Hero Section ======= -->
+    <div id="hero" class="home">
       <div class="container">
-        <h2>Para RH</h2>
-        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
-          <div class="rhlottie">
-            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_5e7wgehs.json" background="transparent"
-              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
-          </div>
-          <div class="rhconjunto-caracteristicas row">
-            <div itemprop="keywords" class="postit postit-esquerda postit-verde col">Melhorar clima organizacional</div>
-            <div itemprop="keywords" class="postit postit-direita postit-rosa col">Integração de colaboradores</div>
-            <div itemprop="keywords" class="postit postit-esquerda-leve postit-amarelo col">Estreitar o relacionamento colaborador / empresa</div>
-          </div>
-        </div>
-        <!-- ======= Fim 1º conjunto RH ======= -->
-        <div class="rhconjunto" data-aos="zoom-out-up" data-aos-duration="2000">
-          <div class="rhlottie">
-            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_6aYlBl.json" background="transparent"
-              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
-          </div>
-          <div class="rhconjunto-caracteristicas row">
-
-            <div itemprop="keywords" class="postit postit-reto postit-rosa col">Festa da empresa</div>
-            <div itemprop="keywords" class="postit postit-esquerda postit-azul col">Entretenimento para Funcionários</div>
-            <div itemprop="keywords" class="postit postit-direita postit-verde col">Semana SIPAT</div>
-
-          </div>
-        </div>
-        <!-- ======= Fim 2º conjunto RH ======= -->
-        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
-          <div class="rhlottie">
-            <lottie-player src="https://assets6.lottiefiles.com/private_files/lf30_qr37agb3.json"
-              background="transparent" speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay>
-            </lottie-player>
-          </div>
-          <div class="rhconjunto-caracteristicas row">
-
-            <div class="postit postit-direita postit-amarelo col col">Datas comemorativas</div>
-            <div class="postit postit-reto postit-rosa col col">Comemoração de metas e conquistas</div>
-            <div itemprop="keywords" class="postit postit-esquerda postit-azul col col">Metas atingidas</div>
-
-          </div>
-        </div>
-        <!-- ======= Fim 3º conjunto RH ======= -->
-        <div class="rhconjunto" data-aos="zoom-out-up" data-aos-duration="1000">
-          <div class="rhlottie">
-            <lottie-player src="https://assets10.lottiefiles.com/packages/lf20_4jsnlwpe.json" background="transparent"
-              speed="1" style="width: 300px; height: 200px; margin:50px 0"  loop autoplay></lottie-player>
-          </div>
-          <div class="rhconjunto-caracteristicas row">
-            <div itemprop="keywords" class="postit postit-esquerda postit-azul col col">Menos Doenças psicológicas</div>
-            <div itemprop="keywords" class="postit postit-direita postit-amarelo col col">Menos Burnout</div>
-            <div itemprop="keywords" class="postit postit-esquerda-leve postit-verde col col">Menos Turnover</div>
-          </div>
-        </div>
-        <!-- ======= Fim 4º conjunto RH ======= -->
-        <div class="rhconjunto" data-aos="zoom-in-up" data-aos-duration="1000">
-          <div class="rhlottie">
-            <lottie-player src="https://assets4.lottiefiles.com/packages/lf20_zi2kbnkp.json" background="transparent"
-              speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay></lottie-player>
-          </div>
-          <div class="rhconjunto-caracteristicas row">
-            <div itemprop="keywords" class="postit postit-direita postit-amarelo col col">Incentivo à saúde</div>
-            <div itemprop="keywords" class="postit postit-esquerda postit-rosa col col">Orgulho da organização</div>
-            <div itemprop="keywords" class="postit postit-reto postit-azul col col">Evitar procrastinação</div>
-
-          </div>
-        </div>
-        <!-- ======= Fim 5º conjunto RH ======= -->
-
-        <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
-          <div>Assista no link abaixo a sequência de vídeos com a sua solução</div>
-          <div class="link-youtube-div">
-            <a class="link-yt" href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-QJpMHzWQWOr19vKPYnz-MF&autoplay=1">Playlist para você, RH</a>
-          </div>        
-        </div>
-        
-
-        <div class="services-slider swiper" data-aos="zoom-in-down" data-aos-duration="2000">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide" data-swiper-autoplay="3000" data-swiper-zoom="5">
-              <div class="services-block">
-                <i class="bi bi-stars"></i>
-                <span>Entretenimento para Funcionários</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-journal-bookmark"></i>
-                <span>Semana SIPAT</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-emoji-smile"></i>
-                <span>Melhorar clima organizacional</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-people"></i>
-                <span>Integração de colaboradores</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-people-fill"></i>
-                <span>Estreitar o relacionamento entre colaboradores/família com
-                  a empresa</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-emoji-laughing"></i>
-                <span>Festa da empresa</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-calendar-check"></i>
-                <span>Datas comemorativas</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-award"></i>
-                <span>Comemoração de metas/conquistas</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-trophy"></i>
-                <span>Metas Atingidas</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-activity"></i>
-                <span>Incentivo a saúde</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-emoji-heart-eyes"></i>
-                <span>Orgulho da organização</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-envelope-x"></i>
-                <span>Evitar procrastinação</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-activity"></i>
-                <span>Menos Doenças psicológicas</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-exclamation-diamond"></i>
-                <span>Menos Burnout</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-
-            <div class="swiper-slide" data-swiper-autoplay="3000">
-              <div class="services-block">
-                <i class="bi bi-person-x"></i>
-                <span>Menos Turnover</span>
-              </div>
-              <div class="services-block">
-                <i class="bi bi-people"></i>
-                <span>Não perca seus talentos</span>
-              </div>
-            </div>
-            <!-- End testimonial item -->
-          </div>
-        </div>
-      </div>
-
-      <div class="container" data-aos="zoom-out-down" data-aos-duration="1500">
-        <div class="section-header">
-          <p itemprop="keywords">
-            Se burnout e turnover geram preocupação, recursos humanos, estamos aqui para ajudar. Naturalmente somos um incentivo à saúde. Xô doenças psicológicas! Xô stress!
+        <div
+          class="hero-content"
+          itemscope
+          itemtype="https://schema.org/Organization"
+        >
+          <p class="logo-inicio">
+            <img
+              itemprop="image"
+              src="assets/img/logo-sem-fundo.png"
+              class="logo glow"
+              alt="logo neon Fábrica de Felicidade no trabalho"
+            />
           </p>
-          <p itemprop="keywords">
-            Aproveite para fazer uma SIPAT mais efetiva, uma melhor integração de funcionários para reter seus talentos conquistados com tanto esforço.
-          </p>
-          <p itemprop="keywords">
-            Que tal um melhor clima organizacional? Diminuir a procrastinação enraizada?
-          </p>
-          <p itemprop="keywords">
-            E para festas na empresa, também somos a solução. Que seja inesquecível cada comemoração.
-          </p>
-          <p itemprop="keywords">Levamos a felicidade no trabalho! Um entretenimento de qualidade. Tudo o que um RH quer!</p>
-          <p>Dúvida sobre seu orçamento? Nosso preço, é você que faz!</p>
+          <h1 class="glow-gold" itemprop="name">Fábrica de Felicidade</h1>
+          <h4 class="glow-pink">Felicidade Gerando Resultados</h4>
+          <h2 class="">
+            <span
+              class="typed glow-pink"
+              data-typed-items=", + Sucesso , - Turnover, + Engajamento, - Desperdício, + Produtividade, - Burnout"
+            ></span>
+          </h2>
+
+          <p class="glow-pink">Siga nas Redes Sociais</p>
+
+          <ul class="list-unstyled list-social glow-blue">
+            <li>
+              <a
+                itemprop="sameAs"
+                href="https://www.facebook.com/fabricadefelicidadeoficial"
+                ><i class="bi bi-facebook"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                itemprop="sameAs"
+                href="https://www.instagram.com/fabricadefelicidadeoficial/"
+                ><i class="bi bi-instagram"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                itemprop="sameAs"
+                href="https://www.linkedin.com/company/fabricadefelicidadeoficial/"
+                ><i class="bi bi-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                itemprop="sameAs"
+                href="https://www.youtube.com/channel/UCcZQTOsOuK6axFxK5LALZJw"
+                ><i class="bi bi-youtube"></i
+              ></a>
+            </li>
+            <li>
+              <a itemprop="sameAs" href="https://wa.me/message/VSHMGGHX2KXDL1"
+                ><i class="bi bi-whatsapp"></i
+              ></a>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
-    <!-- End Rh Section -->
+    <div class="arrow arrow-first"></div>
+    <div class="arrow arrow-second"></div>
 
-    <!-- ======= Diretoria Section ======= -->
-    <div id="diretoria" class="paddsection escura">
-      <div class="container">
-        <h2>Para Diretoria</h2>
-        <h3 class="prata" itemprop="keywords">Resultado de pessoas mais felizes</h3>
+    <div id="menu" class="menu paddsection">
+      <h3>Soluções</h3>
+      <div id="solucoes">
+        <div class="menuitem glow-menu">
+          <a href="#rh"><i class="bi bi-people"></i> RH</a>
+        </div>
+        <div class="menuitem glow-menu">
+          <a href="#diretoria"><i class="bi bi-briefcase"></i> Diretoria</a>
+        </div>
+        <div class="menuitem glow-menu">
+          <a href="#lojas"><i class="bi bi-shop"></i> Lojas</a>
+        </div>
+        <div class="menuitem glow-menu">
+          <a href="#marketing"><i class="bi bi-boxes"></i> Marketing</a>
+        </div>
+        <div class="menuitem glow-menu"><a href="#artigos">Artigos</a></div>
+        <div class="menuitem glow-menu">
+          <a href="#nossotime">Nosso Time</a>
+        </div>
+        <div class="menuitem glow-menu"><a href="#contact">Depoimentos</a></div>
+      </div>
+    </div>
+    <!-- End Menu -->
 
-        <div class="numerosdiretoria row">
-          <div class="col">
-            <div class="col">
-              <span data-purecounter-start="0" data-purecounter-end="31" data-purecounter-duration="1.5"
-                class="purecounter"></span>
-              <span style="margin-left: -10px;">%</span>
+    <main id="main" itemscope itemtype="https://schema.org/Organization">
+      <!-- ======= Rh Section ======= -->
+      <div id="rh" class="paddsection">
+        <div class="container">
+          <h2>Para RH</h2>
+          <div
+            class="rhconjunto"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <div class="rhlottie">
+              <lottie-player
+                src="https://assets7.lottiefiles.com/packages/lf20_5e7wgehs.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                margin="0 auto"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="rhconjunto-caracteristicas row">
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda postit-verde col"
+              >
+                Melhorar clima organizacional
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-direita postit-rosa col"
+              >
+                Integração de colaboradores
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda-leve postit-amarelo col"
+              >
+                Estreitar o relacionamento colaborador / empresa
+              </div>
             </div>
           </div>
-          <div class="col">
-            <div class="col">
-              <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="0.5"
-                class="purecounter"></span>
-              <span style="margin-left: -10px;">x</span>
+          <!-- ======= Fim 1º conjunto RH ======= -->
+          <div
+            class="rhconjunto"
+            data-aos="zoom-out-up"
+            data-aos-duration="2000"
+          >
+            <div class="rhlottie">
+              <lottie-player
+                src="https://assets2.lottiefiles.com/packages/lf20_6aYlBl.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                margin="0 auto"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="rhconjunto-caracteristicas row">
+              <div
+                itemprop="keywords"
+                class="postit postit-reto postit-rosa col"
+              >
+                Festa da empresa
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda postit-azul col"
+              >
+                Entretenimento para Funcionários
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-direita postit-verde col"
+              >
+                Semana SIPAT
+              </div>
+            </div>
+          </div>
+          <!-- ======= Fim 2º conjunto RH ======= -->
+          <div
+            class="rhconjunto"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <div class="rhlottie">
+              <lottie-player
+                src="https://assets6.lottiefiles.com/private_files/lf30_qr37agb3.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                margin="0 auto"
+                loop
+                autoplay
+              >
+              </lottie-player>
+            </div>
+            <div class="rhconjunto-caracteristicas row">
+              <div class="postit postit-direita postit-amarelo col col">
+                Datas comemorativas
+              </div>
+              <div class="postit postit-reto postit-rosa col col">
+                Comemoração de metas e conquistas
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda postit-azul col col"
+              >
+                Metas atingidas
+              </div>
+            </div>
+          </div>
+          <!-- ======= Fim 3º conjunto RH ======= -->
+          <div
+            class="rhconjunto"
+            data-aos="zoom-out-up"
+            data-aos-duration="1000"
+          >
+            <div class="rhlottie">
+              <lottie-player
+                src="https://assets10.lottiefiles.com/packages/lf20_4jsnlwpe.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 200px; margin: 50px 0"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="rhconjunto-caracteristicas row">
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda postit-azul col col"
+              >
+                Menos Doenças psicológicas
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-direita postit-amarelo col col"
+              >
+                Menos Burnout
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda-leve postit-verde col col"
+              >
+                Menos Turnover
+              </div>
+            </div>
+          </div>
+          <!-- ======= Fim 4º conjunto RH ======= -->
+          <div
+            class="rhconjunto"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <div class="rhlottie">
+              <lottie-player
+                src="https://assets4.lottiefiles.com/packages/lf20_zi2kbnkp.json"
+                background="transparent"
+                speed="1"
+                style="width: 300px; height: 300px"
+                margin="0 auto"
+                loop
+                autoplay
+              ></lottie-player>
+            </div>
+            <div class="rhconjunto-caracteristicas row">
+              <div
+                itemprop="keywords"
+                class="postit postit-direita postit-amarelo col col"
+              >
+                Incentivo à saúde
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-esquerda postit-rosa col col"
+              >
+                Orgulho da organização
+              </div>
+              <div
+                itemprop="keywords"
+                class="postit postit-reto postit-azul col col"
+              >
+                Evitar procrastinação
+              </div>
+            </div>
+          </div>
+          <!-- ======= Fim 5º conjunto RH ======= -->
+
+          <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
+            <div>
+              Assista no link abaixo a sequência de vídeos com a sua solução
+            </div>
+            <div class="link-youtube-div">
+              <a
+                class="link-yt"
+                href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-QJpMHzWQWOr19vKPYnz-MF&autoplay=1"
+                >Playlist para você, RH</a
+              >
             </div>
           </div>
 
-          <div class="col">
-            <div class="col">
-              <span data-purecounter-start="0" data-purecounter-end="37" data-purecounter-duration="2.5"
-                class="purecounter"></span>
-              <span style="margin-left: -10px;">%</span>
+          <div
+            class="services-slider swiper"
+            data-aos="zoom-in-down"
+            data-aos-duration="2000"
+          >
+            <div class="swiper-wrapper">
+              <div
+                class="swiper-slide"
+                data-swiper-autoplay="3000"
+                data-swiper-zoom="5"
+              >
+                <div class="services-block">
+                  <i class="bi bi-stars"></i>
+                  <span>Entretenimento para Funcionários</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-journal-bookmark"></i>
+                  <span>Semana SIPAT</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-emoji-smile"></i>
+                  <span>Melhorar clima organizacional</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-people"></i>
+                  <span>Integração de colaboradores</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-people-fill"></i>
+                  <span
+                    >Estreitar o relacionamento entre colaboradores/família com
+                    a empresa</span
+                  >
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-emoji-laughing"></i>
+                  <span>Festa da empresa</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-calendar-check"></i>
+                  <span>Datas comemorativas</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-award"></i>
+                  <span>Comemoração de metas/conquistas</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-trophy"></i>
+                  <span>Metas Atingidas</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-activity"></i>
+                  <span>Incentivo a saúde</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-emoji-heart-eyes"></i>
+                  <span>Orgulho da organização</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-envelope-x"></i>
+                  <span>Evitar procrastinação</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-activity"></i>
+                  <span>Menos Doenças psicológicas</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-exclamation-diamond"></i>
+                  <span>Menos Burnout</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
+
+              <div class="swiper-slide" data-swiper-autoplay="3000">
+                <div class="services-block">
+                  <i class="bi bi-person-x"></i>
+                  <span>Menos Turnover</span>
+                </div>
+                <div class="services-block">
+                  <i class="bi bi-people"></i>
+                  <span>Não perca seus talentos</span>
+                </div>
+              </div>
+              <!-- End testimonial item -->
             </div>
           </div>
-
         </div>
 
-        <div class="titulosnumerosdiretoria row">
-          <div class="titulo1 col">+ Produtivas</div>
-
-          <div class="titulo2 col">+ Criativas</div>
-
-          <div class="titulo3 col">Vendem +</div>
+        <div
+          class="container"
+          data-aos="zoom-out-down"
+          data-aos-duration="1500"
+        >
+          <div class="section-header">
+            <p itemprop="keywords">
+              Se burnout e turnover geram preocupação, recursos humanos, estamos
+              aqui para ajudar. Naturalmente somos um incentivo à saúde. Xô
+              doenças psicológicas! Xô stress!
+            </p>
+            <p itemprop="keywords">
+              Aproveite para fazer uma SIPAT mais efetiva, uma melhor integração
+              de funcionários para reter seus talentos conquistados com tanto
+              esforço.
+            </p>
+            <p itemprop="keywords">
+              Que tal um melhor clima organizacional? Diminuir a procrastinação
+              enraizada?
+            </p>
+            <p itemprop="keywords">
+              E para festas na empresa, também somos a solução. Que seja
+              inesquecível cada comemoração.
+            </p>
+            <p itemprop="keywords">
+              Levamos a felicidade no trabalho! Um entretenimento de qualidade.
+              Tudo o que um RH quer!
+            </p>
+            <p>Dúvida sobre seu orçamento? Nosso preço, é você que faz!</p>
+          </div>
         </div>
       </div>
+      <!-- End Rh Section -->
 
-        <div class="row  diretoria-container">
-          <div class=" col-lg-6 col-md-12">
+      <!-- ======= Diretoria Section ======= -->
+      <div id="diretoria" class="paddsection escura">
+        <div class="container">
+          <h2>Para Diretoria</h2>
+          <h3 class="prata" itemprop="keywords">
+            Resultado de pessoas mais felizes
+          </h3>
+
+          <div class="numerosdiretoria row">
+            <div class="col">
+              <div class="col">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="31"
+                  data-purecounter-duration="1.5"
+                  class="purecounter"
+                ></span>
+                <span style="margin-left: -10px">%</span>
+              </div>
+            </div>
+            <div class="col">
+              <div class="col">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="3"
+                  data-purecounter-duration="0.5"
+                  class="purecounter"
+                ></span>
+                <span style="margin-left: -10px">x</span>
+              </div>
+            </div>
+
+            <div class="col">
+              <div class="col">
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="37"
+                  data-purecounter-duration="2.5"
+                  class="purecounter"
+                ></span>
+                <span style="margin-left: -10px">%</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="titulosnumerosdiretoria row">
+            <div class="titulo1 col">+ Produtivas</div>
+
+            <div class="titulo2 col">+ Criativas</div>
+
+            <div class="titulo3 col">Vendem +</div>
+          </div>
+        </div>
+
+        <div class="row diretoria-container">
+          <div class="col-lg-6 col-md-12">
             <h2 itemprop="keywords">Reduzem desperdícios</h2>
-            <img loading="lazy" src="assets/img/dinheiro-lixo.jpg" data-aos="zoom-in" data-aos-duration="500"  class="img-fluid" alt="Dinheiro no lixo" />
+            <img
+              loading="lazy"
+              src="assets/img/dinheiro-lixo.jpg"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              class="img-fluid"
+              alt="Dinheiro no lixo"
+            />
           </div>
-          <div class=" col-lg-6 col-md-12">
+          <div class="col-lg-6 col-md-12">
             <h2 itemprop="keywords">Valorizam mais os Clientes</h2>
-            <img loading="lazy" src="assets/img/aperto-mao.jpg" data-aos="zoom-in" data-aos-duration="500" class="img-fluid" alt="Clientes apertando as mãos" />
+            <img
+              loading="lazy"
+              src="assets/img/aperto-mao.jpg"
+              data-aos="zoom-in"
+              data-aos-duration="500"
+              class="img-fluid"
+              alt="Clientes apertando as mãos"
+            />
           </div>
           <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
-            <div class="prata">Assista no link abaixo a sequência de vídeos com a sua solução</div>
+            <div class="prata">
+              Assista no link abaixo a sequência de vídeos com a sua solução
+            </div>
             <div class="link-youtube-div">
-              <a class="link-yt" href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-RV0RuNIWPwIEsQYG5AplT9&autoplay=1">Playlist para Diretoria</a>
-            </div> 
+              <a
+                class="link-yt"
+                href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-RV0RuNIWPwIEsQYG5AplT9&autoplay=1"
+                >Playlist para Diretoria</a
+              >
+            </div>
           </div>
           <div class="container" data-aos="zoom-in-up" data-aos-duration="1000">
             <div class="section-description">
               <p class="prata" itemprop="keywords">
-                Melhore os resultados da sua empresa.</p>
-              <p class="prata">Com nosso serviço fazendo pessoas mais felizes, podemos estimular ganhos intangíveis impactando
-                significativamente os números de forma positiva. Diversas pesquisas, inclusive internacionais apontam
-                lucros relevantes com colaboradores em estado de felicidade, como maior produtividade, criatividade e mais vendas.
+                Melhore os resultados da sua empresa.
               </p>
-              <p class="prata" itemprop="keywords">Levamos felicidade nas empresas!</p>
-              <p class="prata" itemprop="keywords">E qual é o investimento? Nosso preço, é você que faz!</p>
+              <p class="prata">
+                Com nosso serviço fazendo pessoas mais felizes, podemos
+                estimular ganhos intangíveis impactando significativamente os
+                números de forma positiva. Diversas pesquisas, inclusive
+                internacionais apontam lucros relevantes com colaboradores em
+                estado de felicidade, como maior produtividade, criatividade e
+                mais vendas.
+              </p>
+              <p class="prata" itemprop="keywords">
+                Levamos felicidade nas empresas!
+              </p>
+              <p class="prata" itemprop="keywords">
+                E qual é o investimento? Nosso preço, é você que faz!
+              </p>
             </div>
           </div>
         </div>
       </div>
-    </div>
       <!-- End Diretoria Section -->
 
       <!-- ======= lojas Section ======= -->
       <div id="lojas" class="paddsection">
         <div class="container">
           <h2 class="prata-clara">Para Lojas</h2>
-          <div class="comparalojas compramais row" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div
+            class="comparalojas compramais row"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <div class="col">
-              <h3 class="prata-clara">Loja sem Felicidade</h3>              
+              <h3 class="prata-clara">Loja sem Felicidade</h3>
             </div>
             <div class="col">
-              <h3 class="prata-clara" itemprop="keywords">Loja com Felicidade</h3>
+              <h3 class="prata-clara" itemprop="keywords">
+                Loja com Felicidade
+              </h3>
             </div>
             <div class="compramais">
-              <img loading="lazy" src="assets/img/loja-comparacao.jpg" class="img-fluid img-luz"  alt="loja vazia sem felicidade e cheia com felicidade" />
+              <img
+                loading="lazy"
+                src="assets/img/loja-comparacao.jpg"
+                class="img-fluid img-luz"
+                alt="loja vazia sem felicidade e cheia com felicidade"
+              />
             </div>
           </div>
-          <div class="compramais" data-aos="zoom-in-up" data-aos-duration="1000">
+          <div
+            class="compramais"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
             <h3 class="prata-clara" itemprop="keywords">Cliente compra mais</h3>
           </div>
 
           <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
-            <div class="prata-clara">Assista no link abaixo a sequência de vídeos com a sua solução</div>
-            <div class="link-youtube-div">
-              <a class="link-yt" href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-SN5d0NtqoDON6icLRDyeAY&autoplay=1">Playlist para Lojista</a>
+            <div class="prata-clara">
+              Assista no link abaixo a sequência de vídeos com a sua solução
             </div>
-          </div> 
-                
+            <div class="link-youtube-div">
+              <a
+                class="link-yt"
+                href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-SN5d0NtqoDON6icLRDyeAY&autoplay=1"
+                >Playlist para Lojista</a
+              >
+            </div>
+          </div>
+
           <div data-aos="zoom-in-up" data-aos-duration="1000">
-            <p class="prata-clara" itemprop="keywords">Temos a solução ideal para você lojista!</p>
-            <p class="prata-clara" itemprop="keywords">Atrair clientes fidelizando com um relacionamento duradouro. Clientes mais felizes
-              apoiam sua loja e recomendam. O Resultado? Clientes mais satisfeitos e maior retorno. </p>
+            <p class="prata-clara" itemprop="keywords">
+              Temos a solução ideal para você lojista!
+            </p>
+            <p class="prata-clara" itemprop="keywords">
+              Atrair clientes fidelizando com um relacionamento duradouro.
+              Clientes mais felizes apoiam sua loja e recomendam. O Resultado?
+              Clientes mais satisfeitos e maior retorno.
+            </p>
             <p class="prata-clara">Faça da sua loja uma festa!</p>
             <p class="prata-clara">Não perca essa oportunidade!</p>
             <p class="prata-clara">Porque somos felizes!</p>
-            <p class="prata-clara" itemprop="keywords">E o preço? É você que faz!</p>
-
+            <p class="prata-clara" itemprop="keywords">
+              E o preço? É você que faz!
+            </p>
           </div>
-           
         </div>
       </div>
       <!-- End lojas Section -->
@@ -487,27 +791,68 @@
       <div id="marketing" class="paddsection">
         <div class="container">
           <h2 class="prata">Para Marketing</h2>
-          <div data-aos="zoom-in" data-aos-duration="1000" class="marketinglottie img-luz">
-            <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_ctub3znp.json"
-              background="transparent" speed="1" style="width: 300px; height: 300px" margin="0 auto" loop autoplay>
+          <div
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            class="marketinglottie img-luz"
+          >
+            <lottie-player
+              src="https://assets3.lottiefiles.com/private_files/lf30_ctub3znp.json"
+              background="transparent"
+              speed="1"
+              style="width: 300px; height: 300px"
+              margin="0 auto"
+              loop
+              autoplay
+            >
             </lottie-player>
           </div>
-          <h3 class="prata" itemprop="keywords">Clientes felizes com seu produto!</h2>
-            <img loading="lazy" src="assets/img/clientemarketingfeliz.jpg" data-aos="zoom-in" data-aos-duration="1000" class="img-fluid img-luz" alt="cliente segurando produto muito feliz" />
-            <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
-              <div class="prata">Assista no link abaixo a sequência de vídeos com a sua solução</div>
-              <div class="link-youtube-div">
-                <a class="link-yt" href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-Rki3pW5HcgQRsn0U5y5uaL&autoplay=1">Playlist para Marketing</a>
-              </div>
+          <h3 class="prata" itemprop="keywords">
+            Clientes felizes com seu produto!
+          </h3>
+          <img
+            loading="lazy"
+            src="assets/img/clientemarketingfeliz.jpg"
+            data-aos="zoom-in"
+            data-aos-duration="1000"
+            class="img-fluid img-luz"
+            alt="cliente segurando produto muito feliz"
+          />
+          <div class="youtube" data-aos="zoom-in-up" data-aos-duration="500">
+            <div class="prata">
+              Assista no link abaixo a sequência de vídeos com a sua solução
             </div>
-            <div class="textomarke section-description" data-aos="zoom-in-up" data-aos-duration="1000">
-              <p class="prata" itemprop="keywords">Quer engajar seu produto? Te ajudamos!</p>
-               <p class="prata">Associar a felicidade aos produtos tem virado uma tendência que foi impulsionada após um longo período de
-                reclusão da nossa geração. Divulgar seu produto conosco pode ser o ideal para sua conquista!</p>
-              <p class="prata">Não perca tempo buscando ações complexas e inefetivas tradicionais. </p>
-              <p class="prata">Seja uma empresa feliz! Queremos o sucesso do seu produto!</p>
-              <p class="prata">E o preço? Não se estresse. É você que faz!</p>
+            <div class="link-youtube-div">
+              <a
+                class="link-yt"
+                href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-Rki3pW5HcgQRsn0U5y5uaL&autoplay=1"
+                >Playlist para Marketing</a
+              >
             </div>
+          </div>
+          <div
+            class="textomarke section-description"
+            data-aos="zoom-in-up"
+            data-aos-duration="1000"
+          >
+            <p class="prata" itemprop="keywords">
+              Quer engajar seu produto? Te ajudamos!
+            </p>
+            <p class="prata">
+              Associar a felicidade aos produtos tem virado uma tendência que
+              foi impulsionada após um longo período de reclusão da nossa
+              geração. Divulgar seu produto conosco pode ser o ideal para sua
+              conquista!
+            </p>
+            <p class="prata">
+              Não perca tempo buscando ações complexas e inefetivas
+              tradicionais.
+            </p>
+            <p class="prata">
+              Seja uma empresa feliz! Queremos o sucesso do seu produto!
+            </p>
+            <p class="prata">E o preço? Não se estresse. É você que faz!</p>
+          </div>
         </div>
       </div>
       <!-- End Marketing Section -->
@@ -523,14 +868,22 @@
                   <div class="col-lg-4 col-md-6">
                     <div class="journal-info">
                       <a href="/burnout">
-                        <img src="assets/img/burnout/burnout-woman.jpg" class="img-fluid img-luz" alt="img">
+                        <img
+                          src="assets/img/burnout/burnout-woman.jpg"
+                          class="img-fluid img-luz"
+                          alt="img"
+                        />
                       </a>
                       <div class="journal-txt">
                         <h4>
-                          <a href="/burnout" itemprop="keywords">Burnout - O que é? Dá para prevenir? Como tratar?</a>
+                          <a href="/burnout" itemprop="keywords"
+                            >Burnout - O que é? Dá para prevenir? Como
+                            tratar?</a
+                          >
                         </h4>
                         <p class="separator">
-                          Um artigo sobre essa doença com maior ascenção em pauta.
+                          Um artigo sobre essa doença com maior ascenção em
+                          pauta.
                         </p>
                       </div>
                     </div>
@@ -538,11 +891,19 @@
                   <div class="col-lg-4 col-md-6">
                     <div class="journal-info">
                       <a href="/voce-escolhe-nosso-preco">
-                        <img src="assets/img/voceescolheopreco/voce-escolhe-preco-fabrica-de-felicidade.jpg" class="img-fluid img-luz" alt="img">
+                        <img
+                          src="assets/img/voceescolheopreco/voce-escolhe-preco-fabrica-de-felicidade.jpg"
+                          class="img-fluid img-luz"
+                          alt="img"
+                        />
                       </a>
                       <div class="journal-txt">
                         <h4>
-                          <a href="/voce-escolhe-nosso-preco" itemprop="keywords">Você escolhe o nosso preço!</a>
+                          <a
+                            href="/voce-escolhe-nosso-preco"
+                            itemprop="keywords"
+                            >Você escolhe o nosso preço!</a
+                          >
                         </h4>
                         <p class="separator" itemprop="keywords">
                           Na Fábrica de Felicidade, este é um dos princípios.
@@ -554,25 +915,35 @@
                   <div class="col-lg-4 col-md-6">
                     <div class="journal-info">
                       <a href="/integracao-de-colaboradores">
-                        <img src="assets/img/integracao-de-colaboradores/colaboradores-pulando-fabrica-de-felicidade.jpg" class="img-fluid img-luz" alt="img">
+                        <img
+                          src="assets/img/integracao-de-colaboradores/colaboradores-pulando-fabrica-de-felicidade.jpg"
+                          class="img-fluid img-luz"
+                          alt="img"
+                        />
                       </a>
                       <div class="journal-txt">
                         <h4>
-                          <a href="/integracao-de-colaboradores" itemprop="keywords">Integração de Colaboradores</a>
+                          <a
+                            href="/integracao-de-colaboradores"
+                            itemprop="keywords"
+                            >Integração de Colaboradores</a
+                          >
                         </h4>
                         <p class="separator" itemprop="keywords">
-                          Para retenção de talentos, menos absenteísmo, presenteísmo, turnover ...
+                          Para retenção de talentos, menos absenteísmo,
+                          presenteísmo, turnover ...
                         </p>
                       </div>
                     </div>
                   </div>
                   <div class="row-mais-arigos">
-                    <a class="maisartigos link-yt" href="/artigos">Ver mais artigos ...</a>
+                    <a class="maisartigos link-yt" href="/artigos"
+                      >Ver mais artigos ...</a
+                    >
                   </div>
                 </div>
               </div>
             </div>
-
           </section>
         </div>
       </div>
@@ -580,7 +951,7 @@
 
       <!-- End Contact Section -->
       <div class="cinema">
-        <h2 >Essa é a sensação</h2>
+        <h2>Essa é a sensação</h2>
         <div class="video" data-aos="zoom-in-up" data-aos-duration="500">
           <div class="img-luz video-ajustado" id="video"></div>
           <!-- carregado por js
@@ -593,11 +964,22 @@
 
       <div class="youtube">
         <div class="titleyoutube">
-          <span class="prata-escura">Nosso </span><span style="color: black;">You</span><span style="color: red;">Tube</span>
+          <span class="prata-escura">Nosso </span
+          ><span style="color: black">You</span
+          ><span style="color: red">Tube</span>
         </div>
-        <img loading="lazy" src="/assets/img/youtubelayout.jpg" class="youtube-img" alt="layout do youtube">     
+        <img
+          loading="lazy"
+          src="/assets/img/youtubelayout.jpg"
+          class="youtube-img"
+          alt="layout do youtube"
+        />
         <div class="link-youtube-div">
-          <a class="link-yt" href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-SNeyjSb7eL3BY5Gb4WWrUP&autoplay=1">Assista aqui!</a>
+          <a
+            class="link-yt"
+            href="https://www.youtube.com/embed/videoseries?list=PLcLhbcBuy6-SNeyjSb7eL3BY5Gb4WWrUP&autoplay=1"
+            >Assista aqui!</a
+          >
         </div>
       </div>
 
@@ -606,101 +988,159 @@
         <div class="container">
           <div class="contact-block1">
             <div class="row">
-              <section id="testimonials" class="testimonials">         
+              <section id="testimonials" class="testimonials">
                 <div class="container position-relative">
-                  <h2 class="prata-clara">Depoimentos</h2>     
-                  <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+                  <h2 class="prata-clara">Depoimentos</h2>
+                  <div
+                    class="testimonials-slider swiper"
+                    data-aos="fade-up"
+                    data-aos-delay="100"
+                  >
                     <div class="swiper-wrapper">
-          
                       <div class="swiper-slide">
                         <div class="testimonial-item">
-                          <img loading="lazy" src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="foto john sandman">
+                          <img
+                            loading="lazy"
+                            src="assets/img/testimonials/testimonials-1.jpg"
+                            class="testimonial-img"
+                            alt="foto john sandman"
+                          />
                           <h3>John Sandman</h3>
                           <h4>CEO &amp; Founder</h4>
                           <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Após a incrível experiência com a Fábrica de Felicidade na nossa empresa, o clima organizacional está irreconhecível. Estou muito satisfeito.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <i
+                              class="bx bxs-quote-alt-left quote-icon-left"
+                            ></i>
+                            Após a incrível experiência com a Fábrica de
+                            Felicidade na nossa empresa, o clima organizacional
+                            está irreconhecível. Estou muito satisfeito.
+                            <i
+                              class="bx bxs-quote-alt-right quote-icon-right"
+                            ></i>
                           </p>
                         </div>
-                      </div><!-- End testimonial item -->
-          
+                      </div>
+                      <!-- End testimonial item -->
+
                       <div class="swiper-slide">
                         <div class="testimonial-item">
-                          <img loading="lazy" src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="foto sara chen">
+                          <img
+                            loading="lazy"
+                            src="assets/img/testimonials/testimonials-2.jpg"
+                            class="testimonial-img"
+                            alt="foto sara chen"
+                          />
                           <h3>Sara Chen</h3>
                           <h4>Marketing</h4>
                           <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Nosso lançamento da água saborizada foi um sucesso pelo evento que contratamos a Fábrica de Felicidade.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <i
+                              class="bx bxs-quote-alt-left quote-icon-left"
+                            ></i>
+                            Nosso lançamento da água saborizada foi um sucesso
+                            pelo evento que contratamos a Fábrica de Felicidade.
+                            <i
+                              class="bx bxs-quote-alt-right quote-icon-right"
+                            ></i>
                           </p>
                         </div>
-                      </div><!-- End testimonial item -->
-          
+                      </div>
+                      <!-- End testimonial item -->
+
                       <div class="swiper-slide">
                         <div class="testimonial-item">
-                          <img loading="lazy" src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="foto gerente de rh lorena thompson">
+                          <img
+                            loading="lazy"
+                            src="assets/img/testimonials/testimonials-3.jpg"
+                            class="testimonial-img"
+                            alt="foto gerente de rh lorena thompson"
+                          />
                           <h3>Lorena Thompson</h3>
                           <h4>Gerente de RH</h4>
                           <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Conseguimos despertar algo inacreditável nos nossos colaboradores. Foi o melhor evento que podíamos ter realizado.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <i
+                              class="bx bxs-quote-alt-left quote-icon-left"
+                            ></i>
+                            Conseguimos despertar algo inacreditável nos nossos
+                            colaboradores. Foi o melhor evento que podíamos ter
+                            realizado.
+                            <i
+                              class="bx bxs-quote-alt-right quote-icon-right"
+                            ></i>
                           </p>
                         </div>
-                      </div><!-- End testimonial item -->
-          
+                      </div>
+                      <!-- End testimonial item -->
+
                       <div class="swiper-slide">
                         <div class="testimonial-item">
-                          <img loading="lazy" src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="foto dono do mercado brasil matt jordan">
+                          <img
+                            loading="lazy"
+                            src="assets/img/testimonials/testimonials-4.jpg"
+                            class="testimonial-img"
+                            alt="foto dono do mercado brasil matt jordan"
+                          />
                           <h3>Matt Jordan</h3>
                           <h4>Dono Mercado Brasil</h4>
                           <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Que inauguração incrível que fizemos na nossa filial ABC! Sr.Miagui é o cara!
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <i
+                              class="bx bxs-quote-alt-left quote-icon-left"
+                            ></i>
+                            Que inauguração incrível que fizemos na nossa filial
+                            ABC! Sr.Miagui é o cara!
+                            <i
+                              class="bx bxs-quote-alt-right quote-icon-right"
+                            ></i>
                           </p>
                         </div>
-                      </div><!-- End testimonial item -->
-          
+                      </div>
+                      <!-- End testimonial item -->
+
                       <div class="swiper-slide">
                         <div class="testimonial-item">
-                          <img loading="lazy" src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="foto diretor de vendas john larson">
+                          <img
+                            loading="lazy"
+                            src="assets/img/testimonials/testimonials-5.jpg"
+                            class="testimonial-img"
+                            alt="foto diretor de vendas john larson"
+                          />
                           <h3>John Larson</h3>
                           <h4>Diretor de Vendas</h4>
                           <p>
-                            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                            Conseguimos formar apenas colaboradores em um time de fato. Quebramos a barreira que impedia uma boa comunicação e a gratidão foi enraizada em nós.
-                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <i
+                              class="bx bxs-quote-alt-left quote-icon-left"
+                            ></i>
+                            Conseguimos formar apenas colaboradores em um time
+                            de fato. Quebramos a barreira que impedia uma boa
+                            comunicação e a gratidão foi enraizada em nós.
+                            <i
+                              class="bx bxs-quote-alt-right quote-icon-right"
+                            ></i>
                           </p>
                         </div>
-                      </div><!-- End testimonial item -->
-          
+                      </div>
+                      <!-- End testimonial item -->
                     </div>
                     <div class="swiper-pagination"></div>
                   </div>
-          
                 </div>
               </section>
               <!-- End Testimonials Section -->
-
             </div>
           </div>
         </div>
       </div>
-      
-      <div id="nos">
-      </div>
-      
 
-  </main>
-  <!-- End #main -->
+      <div id="nos"></div>
+    </main>
+    <!-- End #main -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
-      class="bi bi-arrow-up-short"></i></a>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- js IMPORT 
+    <!-- js IMPORT 
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
@@ -713,88 +1153,84 @@
   <script src="assets/js/main.js"></script>
 
   -->
-  <script src="assets/js/all.js"></script>
+    <script src="assets/js/all.js"></script>
 
-  <script>
-    const jsConfetti = new JSConfetti();
-    AOS.init();
-    function clickBody() {
-      document.getElementById("containerpromo").style.display = "none";
-      jogaConfete()
-    }
-    document.body.addEventListener("click", clickBody)
-    setTimeout(() => {
-      document.getElementById("containerpromo").style.display = "block"
-      jogaPresente()
-    }, 11000)
+    <script>
+      const jsConfetti = new JSConfetti();
+      AOS.init();
+      function clickBody() {
+        document.getElementById("containerpromo").style.display = "none";
+        jogaConfete();
+      }
+      document.body.addEventListener("click", clickBody);
+      setTimeout(() => {
+        document.getElementById("containerpromo").style.display = "block";
+        jogaPresente();
+      }, 11000);
 
-    function jogaPresente() {
-      jsConfetti.addConfetti({
-        emojis: ['🎁',',🎊','🎉'],
-        emojiSize: 40,
-        confettiNumber: 60
-    })}
-      
-    function jogaConfete() {
-      jsConfetti.addConfetti({
-        emojis: ['😃', '😁', '🥰', '🤑', '🎉', '💲'],
-        emojiSize: 50,
-        confettiNumber: 120
-    })}
+      function jogaPresente() {
+        jsConfetti.addConfetti({
+          emojis: ["🎁", ",🎊", "🎉"],
+          emojiSize: 40,
+          confettiNumber: 60,
+        });
+      }
 
+      function jogaConfete() {
+        jsConfetti.addConfetti({
+          emojis: ["😃", "😁", "🥰", "🤑", "🎉", "💲"],
+          emojiSize: 50,
+          confettiNumber: 120,
+        });
+      }
 
-    new Swiper('.testimonials-slider', {
-    speed: 600,
-    loop: true,
-    autoplay: {
-      delay: 5000,
-      disableOnInteraction: false
-    },
-    slidesPerView: 'auto',
-    pagination: {
-      el: '.swiper-pagination',
-      type: 'bullets',
-      clickable: true
-    }
-  });
+      new Swiper(".testimonials-slider", {
+        speed: 600,
+        loop: true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: "auto",
+        pagination: {
+          el: ".swiper-pagination",
+          type: "bullets",
+          clickable: true,
+        },
+      });
 
-  window.addEventListener("load", function(event) {
-    document.getElementById("main").style.display = "block"
-    const rhlottie = document.querySelectorAll('.rhlottie');
-    rhlottie.forEach(element => {
-      element.style.display = 'inline-block';
-    });
+      window.addEventListener("load", function (event) {
+        document.getElementById("main").style.display = "block";
+        const rhlottie = document.querySelectorAll(".rhlottie");
+        rhlottie.forEach((element) => {
+          element.style.display = "inline-block";
+        });
 
-    const video = document.createElement('video');
+        const video = document.createElement("video");
 
-    // 👇️ Remote file
-    video.src =
-      'https://media.giphy.com/media/N05lGR0egCG9iwWIAc/giphy.mp4';
+        // 👇️ Remote file
+        video.src =
+          "https://media.giphy.com/media/N05lGR0egCG9iwWIAc/giphy.mp4";
 
-    video.poster =
-      '/assets/img/logo-escrito-fabrica-de-felicidade.jpg';
+        video.poster = "/assets/img/logo-escrito-fabrica-de-felicidade.png";
 
-    video.type="video/mp4"
-    video.autoplay = true;
-    video.preload = "none";
-    video.loop = true;
-    video.controls = false;
-    video.muted = true;
-    video.height = 240; // 👈️ in px
-    video.width = 320; // 👈️ in px
+        video.type = "video/mp4";
+        video.autoplay = true;
+        video.preload = "none";
+        video.loop = true;
+        video.controls = false;
+        video.muted = true;
+        video.height = 240; // 👈️ in px
+        video.width = 320; // 👈️ in px
 
-    console.log("okokok")
+        console.log("okokok");
 
-    const box = document.getElementById('video');
+        const box = document.getElementById("video");
 
-    box.appendChild(video);
-    
-  });
+        box.appendChild(video);
+      });
+    </script>
 
-  </script>
-
-  <div id="root"></div>
-
-</body>
-
+    <div id="root"></div>
+  </body>
 </html>
