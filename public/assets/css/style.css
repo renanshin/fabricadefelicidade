@@ -284,7 +284,7 @@ p {
   font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 500;
-  color: #7e7d7d;
+  color: rgb(212, 0, 255);
   white-space: nowrap;
   transition: 0.3s;
 }
