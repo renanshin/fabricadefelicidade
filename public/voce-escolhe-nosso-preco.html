@@ -296,6 +296,8 @@
           />
           <p>Um forte abraço e gratidão pela leitura. 😉</p>
 
+          <div id="player"></div>
+
           <footer role="contentinfo">
             <p>
               Escrito por <a href="/#nos">Shin</a> e postado na categoria:
@@ -371,6 +373,39 @@
       </ul>
       <p class="footer">Fábrica de Felicidade 2022 - Contatos</p>
     </footer>
+
+    <script>
+      var tag = document.createElement("script");
+
+      tag.src = "https://www.youtube.com/iframe_api";
+      var firstScriptTag = document.getElementsByTagName("script")[0];
+      firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+      var player;
+      function onYouTubeIframeAPIReady() {
+        player = new YT.Player("player", {
+          height: "240",
+          width: "320",
+          videoId: "sg6cKSJ47YQ",
+          events: {
+            onReady: onPlayerReady,
+            onStateChange: onPlayerStateChange,
+          },
+        });
+      }
+
+      function onPlayerReady(event) {}
+
+      var done = true;
+      function onPlayerStateChange(event) {
+        if (event.data == YT.PlayerState.PLAYING && !done) {
+          done = true;
+        }
+      }
+      function stopVideo() {
+        player.stopVideo();
+      }
+    </script>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
