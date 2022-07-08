@@ -141,7 +141,7 @@ const Contato = () => {
                   arquiteto certificado AWS, mais de 30 certificações como ITIL,
                   SCRUM, Qualidade, ISO20000 etc,foi capitão de futebol,
                   dançarino e coreógrafo, trabalhou no Japão aos 16 anos,
-                  corredor, instrutor internacional Zumba e também FitDance,
+                  corredor, foi instrutor internacional Zumba e também FitDance,
                   amante de filosofia, analista de processos, organizador de
                   grandes eventos, pai, nadador, fez trabalhos voluntários e
                   emergentes. Este é um pequeno resumo do nosso grande
