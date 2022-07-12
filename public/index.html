@@ -196,7 +196,7 @@
             <li>
               <a
                 itemprop="sameAs"
-                href="https://www.facebook.com/fabricadefelicidadeoficial"
+                href="https://www.facebook.com/afabricadefelicidadeoficial"
                 ><i class="bi bi-facebook"></i
               ></a>
             </li>
@@ -620,7 +620,7 @@
                 <span
                   data-purecounter-start="0"
                   data-purecounter-end="31"
-                  data-purecounter-duration="1.5"
+                  data-purecounter-duration="0.8"
                   class="purecounter"
                 ></span>
                 <span style="margin-left: -10px">%</span>
@@ -628,13 +628,7 @@
             </div>
             <div class="col">
               <div class="col">
-                <span
-                  data-purecounter-start="0"
-                  data-purecounter-end="3"
-                  data-purecounter-duration="0.5"
-                  class="purecounter"
-                ></span>
-                <span style="margin-left: -10px">x</span>
+                <span style="margin-left: -5px">3x</span>
               </div>
             </div>
 
@@ -643,7 +637,7 @@
                 <span
                   data-purecounter-start="0"
                   data-purecounter-end="37"
-                  data-purecounter-duration="2.5"
+                  data-purecounter-duration="1.1"
                   class="purecounter"
                 ></span>
                 <span style="margin-left: -10px">%</span>
@@ -1130,6 +1124,30 @@
         </div>
       </div>
 
+      <div id="causa-social-textarea" class="causa-social-textarea">
+        <div class="fechar">[X] FECHAR</div>
+        <h2 class="h2-causas-sociais">Causas Sociais</h2>
+        <p class="causa-social-p">
+          Lutamos por causas sociais para a população. Nossos recursos são
+          obtidos levando os benefícios da felicidade para as empresas, assim
+          gerando resultados. Missão contra fome, diferenças sociais, de gênero,
+          raça, etnias. Mais equidade, oportunidade para todos e ajuda aos
+          invisíveis da sociedade. Atenção à saúde, cuidado pós covid, alerta a
+          doenças psicológicas antes do seu agravamento. Poder mais justo entre
+          pessoas e empresas de diferentes portes, mais humanização, respeito,
+          transparência, sustentabilidade. Estimular a gratidão para aumentarmos
+          o time para essas causas e conscientização de todos que podemos
+          contribuir para um mundo melhor.
+        </p>
+      </div>
+      <div class="titulo-botao-causa">Causas Sociais</div>
+      <img
+        src="assets/img/botao-causa-social.jpeg"
+        alt="Botão causa social"
+        id="causa-social-button"
+        class="causa-social d-flex align-items-center justify-content-center"
+      />
+
       <div id="nos"></div>
     </main>
     <!-- End #main -->
@@ -1160,13 +1178,13 @@
       setTimeout(() => {
         document.getElementById("containerpromo").style.display = "block";
         jogaPresente();
-      }, 11000);
+      }, 7000);
 
       function jogaPresente() {
         jsConfetti.addConfetti({
           emojis: ["🎁", ",🎊", "🎉"],
           emojiSize: 40,
-          confettiNumber: 60,
+          confettiNumber: 40,
         });
       }
 
@@ -1174,7 +1192,7 @@
         jsConfetti.addConfetti({
           emojis: ["😃", "😁", "🥰", "🤑", "🎉", "💲"],
           emojiSize: 50,
-          confettiNumber: 120,
+          confettiNumber: 80,
         });
       }
 
@@ -1192,6 +1210,26 @@
           clickable: true,
         },
       });
+
+      let causaSocialButton = document.getElementById("causa-social-button");
+      causaSocialButton.addEventListener("click", toggleDisplay, false);
+      let causaSocialTextArea = document.getElementById(
+        "causa-social-textarea"
+      );
+      causaSocialTextArea.addEventListener("click", toggleDisplay);
+
+      function toggleDisplay() {
+        console.log("Chamou");
+        console.log(
+          document.getElementById("causa-social-textarea").style.display
+        );
+        document.getElementById("causa-social-textarea").style.display =
+          document.getElementById("causa-social-textarea").style.display ==
+            "none" ||
+          document.getElementById("causa-social-textarea").style.display == ""
+            ? "block"
+            : "none";
+      }
 
       window.addEventListener("load", function (event) {
         document.getElementById("main").style.display = "block";
