@@ -1454,6 +1454,21 @@ strong {
   font-weight: bold;
 }
 
+.arco-iris {
+  background-image: linear-gradient(
+    to left,
+    violet,
+    indigo,
+    blue,
+    green,
+    rgb(180, 180, 0),
+    orange,
+    red
+  );
+  color: transparent;
+  -webkit-background-clip: text;
+}
+
 /*--------------------------------------------------------------
 # para desktop
 --------------------------------------------------------------*/
