@@ -2302,3 +2302,12 @@ ul {
 .h2-causas-sociais {
   margin: 0;
 }
+.causa-social-p {
+  font-size: 18px;
+  color: #eee;
+}
+
+}
+.saiba-mais-button {
+  border-radius: 18px;
+}

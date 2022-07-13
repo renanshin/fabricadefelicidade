@@ -197,21 +197,24 @@
 
       <div id="causa-social-textarea" class="causa-social-textarea">
         <div class="fechar">[X] FECHAR</div>
-        <h2>Causas Sociais</h2>
+        <h2 class="titulo-causas-sociais">Causas Sociais</h2>
         <p class="causa-social-p">
-          Lutamos por causas sociais para a população. Nossos recursos são
-          obtidos levando os benefícios da felicidade para as empresas, assim
-          gerando resultados. Missão contra fome, diferenças sociais, de gênero,
-          raça, etnias. Mais equidade, oportunidade para todos e ajuda aos
-          invisíveis da sociedade. Atenção à saúde, cuidado pós covid, alerta a
-          doenças psicológicas antes do seu agravamento. Poder mais justo entre
-          pessoas e empresas de diferentes portes, mais humanização, respeito,
-          transparência, sustentabilidade. Estimular a gratidão para aumentarmos
-          o time para essas causas e conscientização de todos que podemos
-          contribuir para um mundo melhor.
+          Lutamos por causas sociais como a fome, desigualdade social, ajuda aos
+          invisíveis da sociedade, gratidão, pobreza,equidade, racismo,
+          discriminação LGBTQIA+, alerta a saúde principalmente psicológica pós
+          covid, respeito, sustentabilidade, humanização, poder justo e
+          educação.
         </p>
+        <button
+          onclick="location.href='/causas-sociais'"
+          class="saiba-mais-button"
+        >
+          Saiba Mais
+        </button>
       </div>
-      <div class="titulo-botao-causa">Causas Sociais</div>
+      <div id="titulo-botao-causa" class="titulo-botao-causa">
+        Causas Sociais
+      </div>
       <img
         src="assets/img/botao-causa-social.jpeg"
         alt="Botão causa social"
@@ -261,6 +264,9 @@
         "causa-social-textarea"
       );
       causaSocialTextArea.addEventListener("click", toggleDisplay);
+
+      let tituloBotaoCausa = document.getElementById("titulo-botao-causa");
+      tituloBotaoCausa.addEventListener("click", toggleDisplay);
 
       function toggleDisplay() {
         console.log("Chamou");
