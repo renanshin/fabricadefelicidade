@@ -174,7 +174,7 @@
                     <img
                       src="assets/img/burnout/burnout-woman.jpg"
                       class="img-fluid img-luz"
-                      alt="img"
+                      alt="burnout"
                     />
                   </a>
                   <div class="journal-txt">
@@ -186,6 +186,26 @@
                     <p class="separator">
                       Um artigo sobre este assunto cada vez mais presente no
                       mundo corporativo atual.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="journal-info">
+                  <a href="/estresse">
+                    <img
+                      src="assets/img/estresse/estresse.jpg"
+                      class="img-fluid img-luz"
+                      alt="estresse"
+                    />
+                  </a>
+                  <div class="journal-txt">
+                    <h4>
+                      <a href="/estresse" itemprop="keywords">Stress</a>
+                    </h4>
+                    <p class="separator">
+                      Você acha que é estressado? Nesta matéria é abordada na
+                      prática as ...
                     </p>
                   </div>
                 </div>
@@ -269,10 +289,6 @@
       tituloBotaoCausa.addEventListener("click", toggleDisplay);
 
       function toggleDisplay() {
-        console.log("Chamou");
-        console.log(
-          document.getElementById("causa-social-textarea").style.display
-        );
         document.getElementById("causa-social-textarea").style.display =
           document.getElementById("causa-social-textarea").style.display ==
             "none" ||
