@@ -113,6 +113,22 @@
     onscroll(document, toggleBacktotop);
   }
 
+  let causasocial = select(".causa-social-textarea");
+  console.log(causasocial);
+  if (causasocial) {
+    const togglCausaSocial = () => {
+      if (window.scrollY > 100) {
+        causasocial.classList.add("active");
+        console.log("ativo");
+      } else {
+        causasocial.classList.remove("active");
+        console.log("inativo");
+      }
+    };
+    window.addEventListener("load", togglCausaSocial);
+    onscroll(document, togglCausaSocial);
+  }
+
   /**
    * Mobile nav toggle
    */

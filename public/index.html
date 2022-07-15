@@ -1129,7 +1129,7 @@
         <h2 class="titulo-causas-sociais">Causas Sociais</h2>
         <p class="causa-social-p">
           Lutamos por causas sociais como a fome, desigualdade social, ajuda aos
-          invisíveis da sociedade, gratidão, pobreza,equidade, racismo,
+          invisíveis da sociedade, gratidão, pobreza, equidade, racismo,
           discriminação LGBTQIA+, alerta a saúde principalmente psicológica pós
           covid, respeito, sustentabilidade, humanização, poder justo e
           educação.
@@ -1216,18 +1216,21 @@
 
       let causaSocialButton = document.getElementById("causa-social-button");
       causaSocialButton.addEventListener("click", toggleDisplay, false);
+      let tituloBotaoCausa = document.getElementById("titulo-botao-causa");
+      tituloBotaoCausa.addEventListener("click", toggleDisplay);
       let causaSocialTextArea = document.getElementById(
         "causa-social-textarea"
       );
       causaSocialTextArea.addEventListener("click", toggleDisplay);
 
       function toggleDisplay() {
-        document.getElementById("causa-social-textarea").style.display =
-          document.getElementById("causa-social-textarea").style.display ==
-            "none" ||
-          document.getElementById("causa-social-textarea").style.display == ""
-            ? "block"
-            : "none";
+        if (
+          document
+            .getElementById("causa-social-textarea")
+            .classList.contains("display-block")
+        )
+          causaSocialTextArea.classList.remove("display-block");
+        else causaSocialTextArea.classList.add("display-block");
       }
 
       window.addEventListener("load", function (event) {
